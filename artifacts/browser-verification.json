@@ -1,0 +1,89 @@
+{
+  "pages": [
+    {
+      "canvas": true,
+      "checks": 0,
+      "scrollWidth": 1265,
+      "title": "雅砻江 · 流域运行",
+      "url": "http://127.0.0.1:5273/?style=precision&page=map",
+      "width": 1280
+    },
+    {
+      "canvas": true,
+      "checks": 0,
+      "scrollWidth": 1265,
+      "title": "上导轴承温升",
+      "url": "http://127.0.0.1:5273/?style=precision&page=diagnosis",
+      "width": 1280
+    },
+    {
+      "canvas": false,
+      "checks": 3,
+      "scrollWidth": 1265,
+      "title": "关单核查",
+      "url": "http://127.0.0.1:5273/?style=precision&page=review",
+      "width": 1280
+    },
+    {
+      "canvas": true,
+      "checks": 0,
+      "scrollWidth": 1265,
+      "title": "雅砻江 · 流域运行",
+      "url": "http://127.0.0.1:5273/?style=light&page=map",
+      "width": 1280
+    },
+    {
+      "canvas": true,
+      "checks": 0,
+      "scrollWidth": 1265,
+      "title": "上导轴承温升",
+      "url": "http://127.0.0.1:5273/?style=light&page=diagnosis",
+      "width": 1280
+    },
+    {
+      "canvas": false,
+      "checks": 3,
+      "scrollWidth": 1265,
+      "title": "关单核查",
+      "url": "http://127.0.0.1:5273/?style=light&page=review",
+      "width": 1280
+    },
+    {
+      "canvas": true,
+      "checks": 0,
+      "scrollWidth": 1265,
+      "title": "雅砻江 · 流域运行",
+      "url": "http://127.0.0.1:5273/?style=immersive&page=map",
+      "width": 1280
+    },
+    {
+      "canvas": true,
+      "checks": 0,
+      "scrollWidth": 1265,
+      "title": "上导轴承温升",
+      "url": "http://127.0.0.1:5273/?style=immersive&page=diagnosis",
+      "width": 1280
+    },
+    {
+      "canvas": false,
+      "checks": 3,
+      "scrollWidth": 1265,
+      "title": "关单核查",
+      "url": "http://127.0.0.1:5273/?style=immersive&page=review",
+      "width": 1280
+    }
+  ],
+  "interactions": [
+    "station selection",
+    "labels visibility",
+    "camera reset",
+    "exploded equipment",
+    "temperature/vibration switch",
+    "unchecked closure blocked",
+    "three-check closure and archive",
+    "return for recheck",
+    "resubmit after recheck"
+  ],
+  "errors": [],
+  "scope": "Local UI demo, no production operations"
+}

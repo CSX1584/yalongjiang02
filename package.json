@@ -1,0 +1,1 @@
+{"name":"yalong-visual-directions","private":true,"type":"module","scripts":{"dev":"node server.mjs"},"dependencies":{"three":"0.180.0"}}
