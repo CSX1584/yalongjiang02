@@ -1,4 +1,4 @@
-# 雅砻江三方向视觉 Demo · V2
+# 雅砻江三方向视觉 Demo · V3
 
 三种独立页面构成，每种均包含 3D 流域地图、故障诊断、关单核查。
 
@@ -19,12 +19,20 @@ npm run dev
 
 对比九个页面：http://127.0.0.1:5273/compare.html 。
 
-交互入口：http://127.0.0.1:5273/ 。本机安装依赖后也可双击 `启动预览.command`。3D 模块需要 HTTP 服务，不能直接用 file:// 打开 HTML。
+交互入口：http://127.0.0.1:5273/ 。本机也可双击 `启动预览.command`，它为当前目录分配独立端口，避免历史版本误打开新版。3D 模块需要 HTTP 服务，不能直接用 file:// 打开 HTML。
 
 - `?style=precision&page=map`：精密工业
 - `?style=light&page=map`：清晰轻盈
 - `?style=immersive&page=map`：沉浸空间
 - `page` 可切换为 `diagnosis`、`review`
+
+## V3 更新
+
+- 黑白灰作为基础，白色卡片、材质反射、阴影与细分隔建立层级；告警、操作、选中态、图表保留颜色。三套布局继续独立。
+- 桌面按窗口高度分配场景与图表空间，内容较多的面板独立滚动。工业版核查操作固定在底部。窄窗口转为内容流。
+- 同一方向内地图与设备共用场景和相机；流域推进、站区定位、设备展示、部件聚焦与结构展开均使用缓动。切换曲线不会重置镜头。
+- 模型表面随鼠标出现蓝白扫描光，配合局部辉光、轻微视差和悬浮。交互参考 [Auremin](https://www.auremin.com/)，模型与着色器为本地实现。
+- 图表按容器像素重绘坐标轴，文字、圆点和线宽保持正常比例。支持入场曲线生长、鼠标读数和方向键查看。
 
 ## 参考的具体落点
 
@@ -43,11 +51,27 @@ npm run dev
 
 所有业务数据为演示数据。地形为基于高程重构的流域示意，不是电站实际 GIS 布局；设备为程序建立的结构示意，不是厂商 CAD。滤网图片为结构示意。无生产系统连接。
 
+## 下载历史版本
+
+| 版本 | 固定标签 | 可运行下载包 |
+| --- | --- | --- |
+| V1 · 初版 | `archive-v1-20261023` | [下载 V1](https://github.com/CSX1584/yalongjiang02/releases/tag/archive-v1-20261023) |
+| V2 · 独立布局与精细 3D | `archive-v2-20261023` | [下载 V2](https://github.com/CSX1584/yalongjiang02/releases/tag/archive-v2-20261023) |
+| V3 · 自适应与连续运镜 | `archive-v3-20261023` | [下载 V3](https://github.com/CSX1584/yalongjiang02/releases/tag/archive-v3-20261023) |
+
+请下载 Release 中的 `yalongjiang-vX-20261023.zip`。这些包包含 Three.js 依赖，无需 `npm install`；仍需本机安装 Node.js。解压后双击 `启动预览.command`，或运行 `node preview-version.mjs`。关闭终端即可停止该版本。
+
+GitHub 自动生成的 Source code ZIP 仅含源码，需要先执行 `npm ci`。所有固定标签和 Release 包单独保留。
+
 ## 版本与验证
 
 - `main` 与 `archive-v1-20261023`：布局、模型精修前的初版。
-- `refine/layout-and-3d-v2`：本次布局及 3D 精修。
+- `refine/layout-and-3d-v2` 与 `archive-v2-20261023`：V2 布局及 3D 精修。
+- `refine/responsive-motion-v3` 与 `archive-v3-20261023`：V3 高度自适应、中性色、连续运镜及悬停扫描。
 - `artifacts/`：初版九页预览及当时验证结果。
-- `artifacts-v2/`：新版九页预览、站区近景、结构展开及浏览器验证记录。
+- `artifacts-v2/`：V2 九页预览、站区近景、结构展开及浏览器验证记录。
+- `artifacts-v3/`：V3 九页预览、扫描光效果及浏览器验证记录。
 
-代码入口：`app.js` 管理状态和操作，`views.js` 定义三套页面结构，`scene.js` 建立三维场景，`style.css` 定义视觉与窄屏适配。
+浏览器验证覆盖 1024×600、1280×600、1280×720、1920×1080，以及 900×700、535×760 的窄窗口；检查全部九页、图表比例、相机延续、结构展开、证据展开、退回和关单流程。
+
+代码入口：`app.js` 管理状态和操作，`views.js` 定义三套页面结构，`scene.js` 建立三维场景，`style.css` 与 `v3.css` 定义视觉和响应式布局，`charts.js` 绘制自适应曲线。
