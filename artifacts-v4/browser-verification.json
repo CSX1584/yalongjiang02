@@ -1,0 +1,3078 @@
+{
+  "timestamp": "2026-10-23T13:05:32.160Z",
+  "caseCount": 54,
+  "cases": [
+    {
+      "charts": [],
+      "document": [
+        1280,
+        720
+      ],
+      "flyOverlay": 0,
+      "main": {
+        "h": 608,
+        "w": 1200,
+        "x": 80,
+        "y": 87
+      },
+      "panels": [
+        {
+          "class": "industrial-station-rail",
+          "client": 490,
+          "overflow": "auto",
+          "rect": {
+            "h": 490,
+            "w": 256,
+            "x": 1001,
+            "y": 204
+          },
+          "scroll": 506
+        }
+      ],
+      "scene": {
+        "h": 490,
+        "w": 898,
+        "x": 103,
+        "y": 204
+      },
+      "sceneError": null,
+      "sceneState": {
+        "camera": "27.000,36.000,34.000",
+        "engine": "three.js r180",
+        "mode": "map",
+        "motion": "idle",
+        "projection": "orthographic",
+        "scan": "0.00",
+        "sceneId": "1"
+      },
+      "style": "precision page-map",
+      "url": "http://127.0.0.1:5273/?style=precision&page=map",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "charts": [
+        {
+          "pointRadius": "3.5",
+          "rect": {
+            "h": 116,
+            "w": 914,
+            "x": 319,
+            "y": 544
+          },
+          "type": "10px",
+          "viewBox": "0 0 914 116"
+        }
+      ],
+      "document": [
+        1280,
+        720
+      ],
+      "flyOverlay": 0,
+      "main": {
+        "h": 608,
+        "w": 1200,
+        "x": 80,
+        "y": 87
+      },
+      "panels": [
+        {
+          "class": "engineering-evidence",
+          "client": 338,
+          "overflow": "auto",
+          "rect": {
+            "h": 338,
+            "w": 369,
+            "x": 888,
+            "y": 190
+          },
+          "scroll": 518
+        }
+      ],
+      "scene": {
+        "h": 338,
+        "w": 785,
+        "x": 103,
+        "y": 190
+      },
+      "sceneError": null,
+      "sceneState": {
+        "camera": "7.415,2.458,8.790",
+        "engine": "three.js r180",
+        "mode": "device",
+        "motion": "idle",
+        "projection": "orthographic",
+        "scan": "0.00",
+        "sceneId": "1"
+      },
+      "style": "precision page-diagnosis",
+      "url": "http://127.0.0.1:5273/?style=precision&page=diagnosis",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "charts": [
+        {
+          "pointRadius": "3.5",
+          "rect": {
+            "h": 150,
+            "w": 647,
+            "x": 581,
+            "y": 208
+          },
+          "type": "10px",
+          "viewBox": "0 0 647 150"
+        }
+      ],
+      "document": [
+        1280,
+        720
+      ],
+      "flyOverlay": 0,
+      "main": {
+        "h": 608,
+        "w": 1200,
+        "x": 80,
+        "y": 87
+      },
+      "panels": [
+        {
+          "class": "review-evidence-scroll",
+          "client": 351,
+          "overflow": "auto",
+          "rect": {
+            "h": 351,
+            "w": 1154,
+            "x": 103,
+            "y": 190
+          },
+          "scroll": 489
+        },
+        {
+          "class": "verification-panel",
+          "client": 151,
+          "overflow": "visible",
+          "rect": {
+            "h": 152,
+            "w": 1154,
+            "x": 103,
+            "y": 542
+          },
+          "scroll": 151
+        }
+      ],
+      "scene": null,
+      "sceneError": null,
+      "sceneState": {},
+      "style": "precision page-review",
+      "url": "http://127.0.0.1:5273/?style=precision&page=review",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "charts": [],
+      "document": [
+        1280,
+        720
+      ],
+      "flyOverlay": 0,
+      "main": {
+        "h": 608,
+        "w": 1280,
+        "x": 0,
+        "y": 87
+      },
+      "panels": [
+        {
+          "class": "task-column",
+          "client": 504,
+          "overflow": "auto",
+          "rect": {
+            "h": 504,
+            "w": 255,
+            "x": 33,
+            "y": 191
+          },
+          "scroll": 546
+        }
+      ],
+      "scene": {
+        "h": 405,
+        "w": 935,
+        "x": 312,
+        "y": 191
+      },
+      "sceneError": null,
+      "sceneState": {
+        "camera": "32.000,37.000,39.000",
+        "engine": "three.js r180",
+        "mode": "map",
+        "motion": "idle",
+        "projection": "perspective",
+        "scan": "0.00",
+        "sceneId": "1"
+      },
+      "style": "light page-map",
+      "url": "http://127.0.0.1:5273/?style=light&page=map",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "charts": [
+        {
+          "pointRadius": "3.5",
+          "rect": {
+            "h": 100,
+            "w": 620,
+            "x": 51,
+            "y": 380
+          },
+          "type": "10px",
+          "viewBox": "0 0 620 100"
+        }
+      ],
+      "document": [
+        1280,
+        720
+      ],
+      "flyOverlay": 0,
+      "main": {
+        "h": 608,
+        "w": 1280,
+        "x": 0,
+        "y": 87
+      },
+      "panels": [],
+      "scene": {
+        "h": 251,
+        "w": 544,
+        "x": 702,
+        "y": 320
+      },
+      "sceneError": null,
+      "sceneState": {
+        "camera": "7.415,2.074,8.790",
+        "engine": "three.js r180",
+        "mode": "device",
+        "motion": "idle",
+        "projection": "perspective",
+        "scan": "0.00",
+        "sceneId": "1"
+      },
+      "style": "light page-diagnosis",
+      "url": "http://127.0.0.1:5273/?style=light&page=diagnosis",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "charts": [
+        {
+          "pointRadius": "3.5",
+          "rect": {
+            "h": 115,
+            "w": 715,
+            "x": 192,
+            "y": 425
+          },
+          "type": "10px",
+          "viewBox": "0 0 715 115"
+        }
+      ],
+      "document": [
+        1280,
+        720
+      ],
+      "flyOverlay": 0,
+      "main": {
+        "h": 608,
+        "w": 1280,
+        "x": 0,
+        "y": 87
+      },
+      "panels": [
+        {
+          "class": "light-report",
+          "client": 504,
+          "overflow": "auto",
+          "rect": {
+            "h": 504,
+            "w": 764,
+            "x": 173,
+            "y": 191
+          },
+          "scroll": 579
+        },
+        {
+          "class": "verification-panel",
+          "client": 504,
+          "overflow": "auto",
+          "rect": {
+            "h": 504,
+            "w": 290,
+            "x": 957,
+            "y": 191
+          },
+          "scroll": 512
+        }
+      ],
+      "scene": null,
+      "sceneError": null,
+      "sceneState": {},
+      "style": "light page-review",
+      "url": "http://127.0.0.1:5273/?style=light&page=review",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "charts": [],
+      "document": [
+        1280,
+        720
+      ],
+      "flyOverlay": 0,
+      "main": {
+        "h": 606,
+        "w": 1280,
+        "x": 0,
+        "y": 87
+      },
+      "panels": [],
+      "scene": {
+        "h": 606,
+        "w": 1280,
+        "x": 0,
+        "y": 87
+      },
+      "sceneError": null,
+      "sceneState": {
+        "camera": "28.000,34.000,40.000",
+        "engine": "three.js r180",
+        "mode": "map",
+        "motion": "idle",
+        "projection": "perspective",
+        "scan": "0.00",
+        "sceneId": "1"
+      },
+      "style": "immersive page-map",
+      "url": "http://127.0.0.1:5273/?style=immersive&page=map",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "charts": [],
+      "document": [
+        1280,
+        720
+      ],
+      "flyOverlay": 0,
+      "main": {
+        "h": 606,
+        "w": 1280,
+        "x": 0,
+        "y": 87
+      },
+      "panels": [],
+      "scene": {
+        "h": 606,
+        "w": 1280,
+        "x": 0,
+        "y": 87
+      },
+      "sceneError": null,
+      "sceneState": {
+        "camera": "7.487,2.122,8.790",
+        "engine": "three.js r180",
+        "mode": "device",
+        "motion": "idle",
+        "projection": "perspective",
+        "scan": "0.00",
+        "sceneId": "1"
+      },
+      "style": "immersive page-diagnosis",
+      "url": "http://127.0.0.1:5273/?style=immersive&page=diagnosis",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "charts": [
+        {
+          "pointRadius": "3.5",
+          "rect": {
+            "h": 203,
+            "w": 789,
+            "x": 71,
+            "y": 296
+          },
+          "type": "10px",
+          "viewBox": "0 0 789 203"
+        }
+      ],
+      "document": [
+        1280,
+        720
+      ],
+      "flyOverlay": 0,
+      "main": {
+        "h": 606,
+        "w": 1280,
+        "x": 0,
+        "y": 87
+      },
+      "panels": [
+        {
+          "class": "recovery-story",
+          "client": 566,
+          "overflow": "visible",
+          "rect": {
+            "h": 566,
+            "w": 842,
+            "x": 45,
+            "y": 109
+          },
+          "scroll": 566
+        },
+        {
+          "class": "cinema-signoff",
+          "client": 566,
+          "overflow": "auto",
+          "rect": {
+            "h": 566,
+            "w": 320,
+            "x": 915,
+            "y": 109
+          },
+          "scroll": 573
+        },
+        {
+          "class": "verification-panel",
+          "client": 497,
+          "overflow": "visible",
+          "rect": {
+            "h": 499,
+            "w": 309,
+            "x": 915,
+            "y": 109
+          },
+          "scroll": 497
+        }
+      ],
+      "scene": null,
+      "sceneError": null,
+      "sceneState": {},
+      "style": "immersive page-review",
+      "url": "http://127.0.0.1:5273/?style=immersive&page=review",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "charts": [],
+      "document": [
+        1024,
+        600
+      ],
+      "flyOverlay": 0,
+      "main": {
+        "h": 488,
+        "w": 959,
+        "x": 65,
+        "y": 87
+      },
+      "panels": [
+        {
+          "class": "industrial-station-rail",
+          "client": 372,
+          "overflow": "auto",
+          "rect": {
+            "h": 372,
+            "w": 242,
+            "x": 759,
+            "y": 202
+          },
+          "scroll": 506
+        }
+      ],
+      "scene": {
+        "h": 372,
+        "w": 671,
+        "x": 88,
+        "y": 202
+      },
+      "sceneError": null,
+      "sceneState": {
+        "camera": "27.000,36.000,34.000",
+        "engine": "three.js r180",
+        "mode": "map",
+        "motion": "idle",
+        "projection": "orthographic",
+        "scan": "0.00",
+        "sceneId": "1"
+      },
+      "style": "precision page-map",
+      "url": "http://127.0.0.1:5273/?style=precision&page=map",
+      "viewport": [
+        1024,
+        600
+      ]
+    },
+    {
+      "charts": [
+        {
+          "pointRadius": "3.5",
+          "rect": {
+            "h": 101,
+            "w": 673,
+            "x": 304,
+            "y": 439
+          },
+          "type": "10px",
+          "viewBox": "0 0 673 101"
+        }
+      ],
+      "document": [
+        1024,
+        600
+      ],
+      "flyOverlay": 0,
+      "main": {
+        "h": 488,
+        "w": 959,
+        "x": 65,
+        "y": 87
+      },
+      "panels": [
+        {
+          "class": "engineering-evidence",
+          "client": 237,
+          "overflow": "auto",
+          "rect": {
+            "h": 237,
+            "w": 365,
+            "x": 636,
+            "y": 187
+          },
+          "scroll": 502
+        }
+      ],
+      "scene": {
+        "h": 237,
+        "w": 548,
+        "x": 88,
+        "y": 187
+      },
+      "sceneError": null,
+      "sceneState": {
+        "camera": "7.415,2.458,8.790",
+        "engine": "three.js r180",
+        "mode": "device",
+        "motion": "idle",
+        "projection": "orthographic",
+        "scan": "0.00",
+        "sceneId": "1"
+      },
+      "style": "precision page-diagnosis",
+      "url": "http://127.0.0.1:5273/?style=precision&page=diagnosis",
+      "viewport": [
+        1024,
+        600
+      ]
+    },
+    {
+      "charts": [
+        {
+          "pointRadius": "3.5",
+          "rect": {
+            "h": 150,
+            "w": 504,
+            "x": 469,
+            "y": 204
+          },
+          "type": "10px",
+          "viewBox": "0 0 504 150"
+        }
+      ],
+      "document": [
+        1024,
+        600
+      ],
+      "flyOverlay": 0,
+      "main": {
+        "h": 488,
+        "w": 959,
+        "x": 65,
+        "y": 87
+      },
+      "panels": [
+        {
+          "class": "review-evidence-scroll",
+          "client": 235,
+          "overflow": "auto",
+          "rect": {
+            "h": 235,
+            "w": 913,
+            "x": 88,
+            "y": 187
+          },
+          "scroll": 469
+        },
+        {
+          "class": "verification-panel",
+          "client": 151,
+          "overflow": "visible",
+          "rect": {
+            "h": 152,
+            "w": 913,
+            "x": 88,
+            "y": 422
+          },
+          "scroll": 151
+        }
+      ],
+      "scene": null,
+      "sceneError": null,
+      "sceneState": {},
+      "style": "precision page-review",
+      "url": "http://127.0.0.1:5273/?style=precision&page=review",
+      "viewport": [
+        1024,
+        600
+      ]
+    },
+    {
+      "charts": [],
+      "document": [
+        1024,
+        600
+      ],
+      "flyOverlay": 0,
+      "main": {
+        "h": 488,
+        "w": 1024,
+        "x": 0,
+        "y": 87
+      },
+      "panels": [
+        {
+          "class": "task-column",
+          "client": 388,
+          "overflow": "auto",
+          "rect": {
+            "h": 388,
+            "w": 235,
+            "x": 23,
+            "y": 187
+          },
+          "scroll": 526
+        }
+      ],
+      "scene": {
+        "h": 290,
+        "w": 725,
+        "x": 276,
+        "y": 187
+      },
+      "sceneError": null,
+      "sceneState": {
+        "camera": "32.000,37.000,39.000",
+        "engine": "three.js r180",
+        "mode": "map",
+        "motion": "idle",
+        "projection": "perspective",
+        "scan": "0.00",
+        "sceneId": "1"
+      },
+      "style": "light page-map",
+      "url": "http://127.0.0.1:5273/?style=light&page=map",
+      "viewport": [
+        1024,
+        600
+      ]
+    },
+    {
+      "charts": [
+        {
+          "pointRadius": "3.5",
+          "rect": {
+            "h": 100,
+            "w": 485,
+            "x": 41,
+            "y": 366
+          },
+          "type": "10px",
+          "viewBox": "0 0 485 100"
+        }
+      ],
+      "document": [
+        1024,
+        600
+      ],
+      "flyOverlay": 0,
+      "main": {
+        "h": 488,
+        "w": 1024,
+        "x": 0,
+        "y": 87
+      },
+      "panels": [],
+      "scene": {
+        "h": 253,
+        "w": 432,
+        "x": 557,
+        "y": 315
+      },
+      "sceneError": null,
+      "sceneState": {
+        "camera": "7.415,2.074,8.790",
+        "engine": "three.js r180",
+        "mode": "device",
+        "motion": "idle",
+        "projection": "perspective",
+        "scan": "0.00",
+        "sceneId": "1"
+      },
+      "style": "light page-diagnosis",
+      "url": "http://127.0.0.1:5273/?style=light&page=diagnosis",
+      "viewport": [
+        1024,
+        600
+      ]
+    },
+    {
+      "charts": [
+        {
+          "pointRadius": "3.5",
+          "rect": {
+            "h": 115,
+            "w": 479,
+            "x": 182,
+            "y": 415
+          },
+          "type": "10px",
+          "viewBox": "0 0 479 115"
+        }
+      ],
+      "document": [
+        1024,
+        600
+      ],
+      "flyOverlay": 0,
+      "main": {
+        "h": 488,
+        "w": 1024,
+        "x": 0,
+        "y": 87
+      },
+      "panels": [
+        {
+          "class": "light-report",
+          "client": 388,
+          "overflow": "auto",
+          "rect": {
+            "h": 388,
+            "w": 528,
+            "x": 163,
+            "y": 187
+          },
+          "scroll": 610
+        },
+        {
+          "class": "verification-panel",
+          "client": 388,
+          "overflow": "auto",
+          "rect": {
+            "h": 388,
+            "w": 290,
+            "x": 711,
+            "y": 187
+          },
+          "scroll": 489
+        }
+      ],
+      "scene": null,
+      "sceneError": null,
+      "sceneState": {},
+      "style": "light page-review",
+      "url": "http://127.0.0.1:5273/?style=light&page=review",
+      "viewport": [
+        1024,
+        600
+      ]
+    },
+    {
+      "charts": [],
+      "document": [
+        1024,
+        600
+      ],
+      "flyOverlay": 0,
+      "main": {
+        "h": 486,
+        "w": 1024,
+        "x": 0,
+        "y": 87
+      },
+      "panels": [],
+      "scene": {
+        "h": 486,
+        "w": 1024,
+        "x": 0,
+        "y": 87
+      },
+      "sceneError": null,
+      "sceneState": {
+        "camera": "28.000,34.000,40.000",
+        "engine": "three.js r180",
+        "mode": "map",
+        "motion": "idle",
+        "projection": "perspective",
+        "scan": "0.00",
+        "sceneId": "1"
+      },
+      "style": "immersive page-map",
+      "url": "http://127.0.0.1:5273/?style=immersive&page=map",
+      "viewport": [
+        1024,
+        600
+      ]
+    },
+    {
+      "charts": [],
+      "document": [
+        1024,
+        600
+      ],
+      "flyOverlay": 0,
+      "main": {
+        "h": 486,
+        "w": 1024,
+        "x": 0,
+        "y": 87
+      },
+      "panels": [],
+      "scene": {
+        "h": 486,
+        "w": 1024,
+        "x": 0,
+        "y": 87
+      },
+      "sceneError": null,
+      "sceneState": {
+        "camera": "7.487,2.122,8.790",
+        "engine": "three.js r180",
+        "mode": "device",
+        "motion": "idle",
+        "projection": "perspective",
+        "scan": "0.00",
+        "sceneId": "1"
+      },
+      "style": "immersive page-diagnosis",
+      "url": "http://127.0.0.1:5273/?style=immersive&page=diagnosis",
+      "viewport": [
+        1024,
+        600
+      ]
+    },
+    {
+      "charts": [
+        {
+          "pointRadius": "3.5",
+          "rect": {
+            "h": 134,
+            "w": 599,
+            "x": 48,
+            "y": 268
+          },
+          "type": "10px",
+          "viewBox": "0 0 599 134"
+        }
+      ],
+      "document": [
+        1024,
+        600
+      ],
+      "flyOverlay": 0,
+      "main": {
+        "h": 486,
+        "w": 1024,
+        "x": 0,
+        "y": 87
+      },
+      "panels": [
+        {
+          "class": "recovery-story",
+          "client": 453,
+          "overflow": "auto",
+          "rect": {
+            "h": 453,
+            "w": 642,
+            "x": 28,
+            "y": 105
+          },
+          "scroll": 453
+        },
+        {
+          "class": "cinema-signoff",
+          "client": 453,
+          "overflow": "auto",
+          "rect": {
+            "h": 453,
+            "w": 300,
+            "x": 696,
+            "y": 105
+          },
+          "scroll": 536
+        },
+        {
+          "class": "verification-panel",
+          "client": 460,
+          "overflow": "visible",
+          "rect": {
+            "h": 462,
+            "w": 289,
+            "x": 696,
+            "y": 105
+          },
+          "scroll": 460
+        }
+      ],
+      "scene": null,
+      "sceneError": null,
+      "sceneState": {},
+      "style": "immersive page-review",
+      "url": "http://127.0.0.1:5273/?style=immersive&page=review",
+      "viewport": [
+        1024,
+        600
+      ]
+    },
+    {
+      "charts": [],
+      "document": [
+        1280,
+        600
+      ],
+      "flyOverlay": 0,
+      "main": {
+        "h": 488,
+        "w": 1200,
+        "x": 80,
+        "y": 87
+      },
+      "panels": [
+        {
+          "class": "industrial-station-rail",
+          "client": 372,
+          "overflow": "auto",
+          "rect": {
+            "h": 372,
+            "w": 256,
+            "x": 1001,
+            "y": 202
+          },
+          "scroll": 506
+        }
+      ],
+      "scene": {
+        "h": 372,
+        "w": 898,
+        "x": 103,
+        "y": 202
+      },
+      "sceneError": null,
+      "sceneState": {
+        "camera": "27.000,36.000,34.000",
+        "engine": "three.js r180",
+        "mode": "map",
+        "motion": "idle",
+        "projection": "orthographic",
+        "scan": "0.00",
+        "sceneId": "1"
+      },
+      "style": "precision page-map",
+      "url": "http://127.0.0.1:5273/?style=precision&page=map",
+      "viewport": [
+        1280,
+        600
+      ]
+    },
+    {
+      "charts": [
+        {
+          "pointRadius": "3.5",
+          "rect": {
+            "h": 101,
+            "w": 914,
+            "x": 319,
+            "y": 439
+          },
+          "type": "10px",
+          "viewBox": "0 0 914 101"
+        }
+      ],
+      "document": [
+        1280,
+        600
+      ],
+      "flyOverlay": 0,
+      "main": {
+        "h": 488,
+        "w": 1200,
+        "x": 80,
+        "y": 87
+      },
+      "panels": [
+        {
+          "class": "engineering-evidence",
+          "client": 237,
+          "overflow": "auto",
+          "rect": {
+            "h": 237,
+            "w": 369,
+            "x": 888,
+            "y": 187
+          },
+          "scroll": 502
+        }
+      ],
+      "scene": {
+        "h": 237,
+        "w": 785,
+        "x": 103,
+        "y": 187
+      },
+      "sceneError": null,
+      "sceneState": {
+        "camera": "7.415,2.458,8.790",
+        "engine": "three.js r180",
+        "mode": "device",
+        "motion": "idle",
+        "projection": "orthographic",
+        "scan": "0.00",
+        "sceneId": "1"
+      },
+      "style": "precision page-diagnosis",
+      "url": "http://127.0.0.1:5273/?style=precision&page=diagnosis",
+      "viewport": [
+        1280,
+        600
+      ]
+    },
+    {
+      "charts": [
+        {
+          "pointRadius": "3.5",
+          "rect": {
+            "h": 150,
+            "w": 649,
+            "x": 580,
+            "y": 204
+          },
+          "type": "10px",
+          "viewBox": "0 0 649 150"
+        }
+      ],
+      "document": [
+        1280,
+        600
+      ],
+      "flyOverlay": 0,
+      "main": {
+        "h": 488,
+        "w": 1200,
+        "x": 80,
+        "y": 87
+      },
+      "panels": [
+        {
+          "class": "review-evidence-scroll",
+          "client": 235,
+          "overflow": "auto",
+          "rect": {
+            "h": 235,
+            "w": 1154,
+            "x": 103,
+            "y": 187
+          },
+          "scroll": 469
+        },
+        {
+          "class": "verification-panel",
+          "client": 151,
+          "overflow": "visible",
+          "rect": {
+            "h": 152,
+            "w": 1154,
+            "x": 103,
+            "y": 422
+          },
+          "scroll": 151
+        }
+      ],
+      "scene": null,
+      "sceneError": null,
+      "sceneState": {},
+      "style": "precision page-review",
+      "url": "http://127.0.0.1:5273/?style=precision&page=review",
+      "viewport": [
+        1280,
+        600
+      ]
+    },
+    {
+      "charts": [],
+      "document": [
+        1280,
+        600
+      ],
+      "flyOverlay": 0,
+      "main": {
+        "h": 488,
+        "w": 1280,
+        "x": 0,
+        "y": 87
+      },
+      "panels": [
+        {
+          "class": "task-column",
+          "client": 388,
+          "overflow": "auto",
+          "rect": {
+            "h": 388,
+            "w": 255,
+            "x": 33,
+            "y": 187
+          },
+          "scroll": 526
+        }
+      ],
+      "scene": {
+        "h": 290,
+        "w": 935,
+        "x": 312,
+        "y": 187
+      },
+      "sceneError": null,
+      "sceneState": {
+        "camera": "32.000,37.000,39.000",
+        "engine": "three.js r180",
+        "mode": "map",
+        "motion": "idle",
+        "projection": "perspective",
+        "scan": "0.00",
+        "sceneId": "1"
+      },
+      "style": "light page-map",
+      "url": "http://127.0.0.1:5273/?style=light&page=map",
+      "viewport": [
+        1280,
+        600
+      ]
+    },
+    {
+      "charts": [
+        {
+          "pointRadius": "3.5",
+          "rect": {
+            "h": 100,
+            "w": 614,
+            "x": 51,
+            "y": 366
+          },
+          "type": "10px",
+          "viewBox": "0 0 614 100"
+        }
+      ],
+      "document": [
+        1280,
+        600
+      ],
+      "flyOverlay": 0,
+      "main": {
+        "h": 488,
+        "w": 1280,
+        "x": 0,
+        "y": 87
+      },
+      "panels": [],
+      "scene": {
+        "h": 253,
+        "w": 539,
+        "x": 696,
+        "y": 315
+      },
+      "sceneError": null,
+      "sceneState": {
+        "camera": "7.415,2.074,8.790",
+        "engine": "three.js r180",
+        "mode": "device",
+        "motion": "idle",
+        "projection": "perspective",
+        "scan": "0.00",
+        "sceneId": "1"
+      },
+      "style": "light page-diagnosis",
+      "url": "http://127.0.0.1:5273/?style=light&page=diagnosis",
+      "viewport": [
+        1280,
+        600
+      ]
+    },
+    {
+      "charts": [
+        {
+          "pointRadius": "3.5",
+          "rect": {
+            "h": 115,
+            "w": 715,
+            "x": 192,
+            "y": 415
+          },
+          "type": "10px",
+          "viewBox": "0 0 715 115"
+        }
+      ],
+      "document": [
+        1280,
+        600
+      ],
+      "flyOverlay": 0,
+      "main": {
+        "h": 488,
+        "w": 1280,
+        "x": 0,
+        "y": 87
+      },
+      "panels": [
+        {
+          "class": "light-report",
+          "client": 388,
+          "overflow": "auto",
+          "rect": {
+            "h": 388,
+            "w": 764,
+            "x": 173,
+            "y": 187
+          },
+          "scroll": 566
+        },
+        {
+          "class": "verification-panel",
+          "client": 388,
+          "overflow": "auto",
+          "rect": {
+            "h": 388,
+            "w": 290,
+            "x": 957,
+            "y": 187
+          },
+          "scroll": 489
+        }
+      ],
+      "scene": null,
+      "sceneError": null,
+      "sceneState": {},
+      "style": "light page-review",
+      "url": "http://127.0.0.1:5273/?style=light&page=review",
+      "viewport": [
+        1280,
+        600
+      ]
+    },
+    {
+      "charts": [],
+      "document": [
+        1280,
+        600
+      ],
+      "flyOverlay": 0,
+      "main": {
+        "h": 486,
+        "w": 1280,
+        "x": 0,
+        "y": 87
+      },
+      "panels": [],
+      "scene": {
+        "h": 486,
+        "w": 1280,
+        "x": 0,
+        "y": 87
+      },
+      "sceneError": null,
+      "sceneState": {
+        "camera": "28.000,34.000,40.000",
+        "engine": "three.js r180",
+        "mode": "map",
+        "motion": "idle",
+        "projection": "perspective",
+        "scan": "0.00",
+        "sceneId": "1"
+      },
+      "style": "immersive page-map",
+      "url": "http://127.0.0.1:5273/?style=immersive&page=map",
+      "viewport": [
+        1280,
+        600
+      ]
+    },
+    {
+      "charts": [],
+      "document": [
+        1280,
+        600
+      ],
+      "flyOverlay": 0,
+      "main": {
+        "h": 486,
+        "w": 1280,
+        "x": 0,
+        "y": 87
+      },
+      "panels": [],
+      "scene": {
+        "h": 486,
+        "w": 1280,
+        "x": 0,
+        "y": 87
+      },
+      "sceneError": null,
+      "sceneState": {
+        "camera": "7.487,2.122,8.790",
+        "engine": "three.js r180",
+        "mode": "device",
+        "motion": "idle",
+        "projection": "perspective",
+        "scan": "0.00",
+        "sceneId": "1"
+      },
+      "style": "immersive page-diagnosis",
+      "url": "http://127.0.0.1:5273/?style=immersive&page=diagnosis",
+      "viewport": [
+        1280,
+        600
+      ]
+    },
+    {
+      "charts": [
+        {
+          "pointRadius": "3.5",
+          "rect": {
+            "h": 137,
+            "w": 855,
+            "x": 48,
+            "y": 265
+          },
+          "type": "10px",
+          "viewBox": "0 0 855 137"
+        }
+      ],
+      "document": [
+        1280,
+        600
+      ],
+      "flyOverlay": 0,
+      "main": {
+        "h": 486,
+        "w": 1280,
+        "x": 0,
+        "y": 87
+      },
+      "panels": [
+        {
+          "class": "recovery-story",
+          "client": 453,
+          "overflow": "auto",
+          "rect": {
+            "h": 453,
+            "w": 898,
+            "x": 28,
+            "y": 105
+          },
+          "scroll": 453
+        },
+        {
+          "class": "cinema-signoff",
+          "client": 453,
+          "overflow": "auto",
+          "rect": {
+            "h": 453,
+            "w": 300,
+            "x": 952,
+            "y": 105
+          },
+          "scroll": 537
+        },
+        {
+          "class": "verification-panel",
+          "client": 461,
+          "overflow": "visible",
+          "rect": {
+            "h": 463,
+            "w": 289,
+            "x": 952,
+            "y": 105
+          },
+          "scroll": 461
+        }
+      ],
+      "scene": null,
+      "sceneError": null,
+      "sceneState": {},
+      "style": "immersive page-review",
+      "url": "http://127.0.0.1:5273/?style=immersive&page=review",
+      "viewport": [
+        1280,
+        600
+      ]
+    },
+    {
+      "charts": [],
+      "document": [
+        1920,
+        1080
+      ],
+      "flyOverlay": 0,
+      "main": {
+        "h": 936,
+        "w": 1840,
+        "x": 80,
+        "y": 114
+      },
+      "panels": [
+        {
+          "class": "industrial-station-rail",
+          "client": 776,
+          "overflow": "auto",
+          "rect": {
+            "h": 776,
+            "w": 310,
+            "x": 1587,
+            "y": 273
+          },
+          "scroll": 776
+        }
+      ],
+      "scene": {
+        "h": 776,
+        "w": 1484,
+        "x": 103,
+        "y": 273
+      },
+      "sceneError": null,
+      "sceneState": {
+        "camera": "27.000,36.000,34.000",
+        "engine": "three.js r180",
+        "mode": "map",
+        "motion": "idle",
+        "projection": "orthographic",
+        "scan": "0.00",
+        "sceneId": "1"
+      },
+      "style": "precision page-map",
+      "url": "http://127.0.0.1:5273/?style=precision&page=map",
+      "viewport": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "charts": [
+        {
+          "pointRadius": "3.5",
+          "rect": {
+            "h": 166,
+            "w": 1554,
+            "x": 319,
+            "y": 842
+          },
+          "type": "10px",
+          "viewBox": "0 0 1554 166"
+        }
+      ],
+      "document": [
+        1920,
+        1080
+      ],
+      "flyOverlay": 0,
+      "main": {
+        "h": 936,
+        "w": 1840,
+        "x": 80,
+        "y": 114
+      },
+      "panels": [
+        {
+          "class": "engineering-evidence",
+          "client": 579,
+          "overflow": "auto",
+          "rect": {
+            "h": 579,
+            "w": 574,
+            "x": 1323,
+            "y": 240
+          },
+          "scroll": 597
+        }
+      ],
+      "scene": {
+        "h": 579,
+        "w": 1220,
+        "x": 103,
+        "y": 240
+      },
+      "sceneError": null,
+      "sceneState": {
+        "camera": "7.415,2.458,8.790",
+        "engine": "three.js r180",
+        "mode": "device",
+        "motion": "idle",
+        "projection": "orthographic",
+        "scan": "0.00",
+        "sceneId": "1"
+      },
+      "style": "precision page-diagnosis",
+      "url": "http://127.0.0.1:5273/?style=precision&page=diagnosis",
+      "viewport": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "charts": [
+        {
+          "pointRadius": "3.5",
+          "rect": {
+            "h": 166,
+            "w": 1027,
+            "x": 843,
+            "y": 267
+          },
+          "type": "10px",
+          "viewBox": "0 0 1027 166"
+        }
+      ],
+      "document": [
+        1920,
+        1080
+      ],
+      "flyOverlay": 0,
+      "main": {
+        "h": 936,
+        "w": 1840,
+        "x": 80,
+        "y": 114
+      },
+      "panels": [
+        {
+          "class": "review-evidence-scroll",
+          "client": 645,
+          "overflow": "auto",
+          "rect": {
+            "h": 645,
+            "w": 1794,
+            "x": 103,
+            "y": 240
+          },
+          "scroll": 645
+        },
+        {
+          "class": "verification-panel",
+          "client": 163,
+          "overflow": "visible",
+          "rect": {
+            "h": 164,
+            "w": 1794,
+            "x": 103,
+            "y": 885
+          },
+          "scroll": 163
+        }
+      ],
+      "scene": null,
+      "sceneError": null,
+      "sceneState": {},
+      "style": "precision page-review",
+      "url": "http://127.0.0.1:5273/?style=precision&page=review",
+      "viewport": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "charts": [],
+      "document": [
+        1920,
+        1080
+      ],
+      "flyOverlay": 0,
+      "main": {
+        "h": 936,
+        "w": 1920,
+        "x": 0,
+        "y": 114
+      },
+      "panels": [
+        {
+          "class": "task-column",
+          "client": 799,
+          "overflow": "auto",
+          "rect": {
+            "h": 799,
+            "w": 300,
+            "x": 33,
+            "y": 251
+          },
+          "scroll": 799
+        }
+      ],
+      "scene": {
+        "h": 686,
+        "w": 1530,
+        "x": 357,
+        "y": 251
+      },
+      "sceneError": null,
+      "sceneState": {
+        "camera": "32.000,37.000,39.000",
+        "engine": "three.js r180",
+        "mode": "map",
+        "motion": "idle",
+        "projection": "perspective",
+        "scan": "0.00",
+        "sceneId": "1"
+      },
+      "style": "light page-map",
+      "url": "http://127.0.0.1:5273/?style=light&page=map",
+      "viewport": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "charts": [
+        {
+          "pointRadius": "3.5",
+          "rect": {
+            "h": 273,
+            "w": 930,
+            "x": 59,
+            "y": 499
+          },
+          "type": "10px",
+          "viewBox": "0 0 930 273"
+        }
+      ],
+      "document": [
+        1920,
+        1080
+      ],
+      "flyOverlay": 0,
+      "main": {
+        "h": 936,
+        "w": 1920,
+        "x": 0,
+        "y": 114
+      },
+      "panels": [],
+      "scene": {
+        "h": 485,
+        "w": 852,
+        "x": 1034,
+        "y": 409
+      },
+      "sceneError": null,
+      "sceneState": {
+        "camera": "7.415,2.074,8.790",
+        "engine": "three.js r180",
+        "mode": "device",
+        "motion": "idle",
+        "projection": "perspective",
+        "scan": "0.00",
+        "sceneId": "1"
+      },
+      "style": "light page-diagnosis",
+      "url": "http://127.0.0.1:5273/?style=light&page=diagnosis",
+      "viewport": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "charts": [
+        {
+          "pointRadius": "3.5",
+          "rect": {
+            "h": 218,
+            "w": 1350,
+            "x": 200,
+            "y": 541
+          },
+          "type": "10px",
+          "viewBox": "0 0 1350 218"
+        }
+      ],
+      "document": [
+        1920,
+        1080
+      ],
+      "flyOverlay": 0,
+      "main": {
+        "h": 936,
+        "w": 1920,
+        "x": 0,
+        "y": 114
+      },
+      "panels": [
+        {
+          "class": "light-report",
+          "client": 799,
+          "overflow": "auto",
+          "rect": {
+            "h": 799,
+            "w": 1404,
+            "x": 173,
+            "y": 251
+          },
+          "scroll": 799
+        },
+        {
+          "class": "verification-panel",
+          "client": 579,
+          "overflow": "auto",
+          "rect": {
+            "h": 579,
+            "w": 290,
+            "x": 1597,
+            "y": 251
+          },
+          "scroll": 579
+        }
+      ],
+      "scene": null,
+      "sceneError": null,
+      "sceneState": {},
+      "style": "light page-review",
+      "url": "http://127.0.0.1:5273/?style=light&page=review",
+      "viewport": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "charts": [],
+      "document": [
+        1920,
+        1080
+      ],
+      "flyOverlay": 0,
+      "main": {
+        "h": 936,
+        "w": 1920,
+        "x": 0,
+        "y": 114
+      },
+      "panels": [],
+      "scene": {
+        "h": 936,
+        "w": 1920,
+        "x": 0,
+        "y": 114
+      },
+      "sceneError": null,
+      "sceneState": {
+        "camera": "28.000,34.000,40.000",
+        "engine": "three.js r180",
+        "mode": "map",
+        "motion": "idle",
+        "projection": "perspective",
+        "scan": "0.00",
+        "sceneId": "1"
+      },
+      "style": "immersive page-map",
+      "url": "http://127.0.0.1:5273/?style=immersive&page=map",
+      "viewport": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "charts": [],
+      "document": [
+        1920,
+        1080
+      ],
+      "flyOverlay": 0,
+      "main": {
+        "h": 936,
+        "w": 1920,
+        "x": 0,
+        "y": 114
+      },
+      "panels": [],
+      "scene": {
+        "h": 936,
+        "w": 1920,
+        "x": 0,
+        "y": 114
+      },
+      "sceneError": null,
+      "sceneState": {
+        "camera": "7.487,2.122,8.790",
+        "engine": "three.js r180",
+        "mode": "device",
+        "motion": "idle",
+        "projection": "perspective",
+        "scan": "0.00",
+        "sceneId": "1"
+      },
+      "style": "immersive page-diagnosis",
+      "url": "http://127.0.0.1:5273/?style=immersive&page=diagnosis",
+      "viewport": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "charts": [
+        {
+          "pointRadius": "3.5",
+          "rect": {
+            "h": 384,
+            "w": 1262,
+            "x": 100,
+            "y": 409
+          },
+          "type": "10px",
+          "viewBox": "0 0 1262 384"
+        }
+      ],
+      "document": [
+        1920,
+        1080
+      ],
+      "flyOverlay": 0,
+      "main": {
+        "h": 936,
+        "w": 1920,
+        "x": 0,
+        "y": 114
+      },
+      "panels": [
+        {
+          "class": "recovery-story",
+          "client": 863,
+          "overflow": "visible",
+          "rect": {
+            "h": 863,
+            "w": 1328,
+            "x": 67,
+            "y": 155
+          },
+          "scroll": 863
+        },
+        {
+          "class": "cinema-signoff",
+          "client": 863,
+          "overflow": "auto",
+          "rect": {
+            "h": 863,
+            "w": 400,
+            "x": 1453,
+            "y": 155
+          },
+          "scroll": 863
+        },
+        {
+          "class": "verification-panel",
+          "client": 629,
+          "overflow": "visible",
+          "rect": {
+            "h": 631,
+            "w": 400,
+            "x": 1453,
+            "y": 155
+          },
+          "scroll": 629
+        }
+      ],
+      "scene": null,
+      "sceneError": null,
+      "sceneState": {},
+      "style": "immersive page-review",
+      "url": "http://127.0.0.1:5273/?style=immersive&page=review",
+      "viewport": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "charts": [],
+      "document": [
+        889,
+        919
+      ],
+      "flyOverlay": 0,
+      "main": {
+        "h": 750,
+        "w": 824,
+        "x": 65,
+        "y": 118
+      },
+      "panels": [
+        {
+          "class": "industrial-station-rail",
+          "client": 595,
+          "overflow": "visible",
+          "rect": {
+            "h": 595,
+            "w": 250,
+            "x": 616,
+            "y": 273
+          },
+          "scroll": 595
+        }
+      ],
+      "scene": {
+        "h": 595,
+        "w": 528,
+        "x": 88,
+        "y": 273
+      },
+      "sceneError": null,
+      "sceneState": {
+        "camera": "27.000,36.000,34.000",
+        "engine": "three.js r180",
+        "mode": "map",
+        "motion": "idle",
+        "projection": "orthographic",
+        "scan": "0.00",
+        "sceneId": "1"
+      },
+      "style": "precision page-map",
+      "url": "http://127.0.0.1:5273/?style=precision&page=map",
+      "viewport": [
+        900,
+        700
+      ]
+    },
+    {
+      "charts": [
+        {
+          "pointRadius": "3.5",
+          "rect": {
+            "h": 160,
+            "w": 491,
+            "x": 349,
+            "y": 890
+          },
+          "type": "9px",
+          "viewBox": "0 0 491 160"
+        }
+      ],
+      "document": [
+        889,
+        1149
+      ],
+      "flyOverlay": 0,
+      "main": {
+        "h": 980,
+        "w": 824,
+        "x": 65,
+        "y": 118
+      },
+      "panels": [
+        {
+          "class": "engineering-evidence",
+          "client": 602,
+          "overflow": "visible",
+          "rect": {
+            "h": 602,
+            "w": 338,
+            "x": 528,
+            "y": 264
+          },
+          "scroll": 602
+        }
+      ],
+      "scene": {
+        "h": 602,
+        "w": 440,
+        "x": 88,
+        "y": 264
+      },
+      "sceneError": null,
+      "sceneState": {
+        "camera": "7.415,2.458,8.790",
+        "engine": "three.js r180",
+        "mode": "device",
+        "motion": "idle",
+        "projection": "orthographic",
+        "scan": "0.00",
+        "sceneId": "1"
+      },
+      "style": "precision page-diagnosis",
+      "url": "http://127.0.0.1:5273/?style=precision&page=diagnosis",
+      "viewport": [
+        900,
+        700
+      ]
+    },
+    {
+      "charts": [
+        {
+          "pointRadius": "3.5",
+          "rect": {
+            "h": 195,
+            "w": 409,
+            "x": 429,
+            "y": 302
+          },
+          "type": "9px",
+          "viewBox": "0 0 409 195"
+        }
+      ],
+      "document": [
+        889,
+        1181
+      ],
+      "flyOverlay": 0,
+      "main": {
+        "h": 1012,
+        "w": 824,
+        "x": 65,
+        "y": 118
+      },
+      "panels": [
+        {
+          "class": "review-evidence-scroll",
+          "client": 656,
+          "overflow": "visible",
+          "rect": {
+            "h": 656,
+            "w": 778,
+            "x": 88,
+            "y": 264
+          },
+          "scroll": 656
+        },
+        {
+          "class": "verification-panel",
+          "client": 210,
+          "overflow": "visible",
+          "rect": {
+            "h": 210,
+            "w": 778,
+            "x": 88,
+            "y": 919
+          },
+          "scroll": 210
+        }
+      ],
+      "scene": null,
+      "sceneError": null,
+      "sceneState": {},
+      "style": "precision page-review",
+      "url": "http://127.0.0.1:5273/?style=precision&page=review",
+      "viewport": [
+        900,
+        700
+      ]
+    },
+    {
+      "charts": [],
+      "document": [
+        889,
+        969
+      ],
+      "flyOverlay": 0,
+      "main": {
+        "h": 792,
+        "w": 889,
+        "x": 0,
+        "y": 126
+      },
+      "panels": [
+        {
+          "class": "task-column",
+          "client": 646,
+          "overflow": "visible",
+          "rect": {
+            "h": 646,
+            "w": 235,
+            "x": 23,
+            "y": 273
+          },
+          "scroll": 646
+        }
+      ],
+      "scene": {
+        "h": 534,
+        "w": 590,
+        "x": 276,
+        "y": 273
+      },
+      "sceneError": null,
+      "sceneState": {
+        "camera": "32.000,37.000,39.000",
+        "engine": "three.js r180",
+        "mode": "map",
+        "motion": "idle",
+        "projection": "perspective",
+        "scan": "0.00",
+        "sceneId": "1"
+      },
+      "style": "light page-map",
+      "url": "http://127.0.0.1:5273/?style=light&page=map",
+      "viewport": [
+        900,
+        700
+      ]
+    },
+    {
+      "charts": [
+        {
+          "pointRadius": "3.5",
+          "rect": {
+            "h": 207,
+            "w": 407,
+            "x": 45,
+            "y": 526
+          },
+          "type": "9px",
+          "viewBox": "0 0 407 207"
+        }
+      ],
+      "document": [
+        889,
+        1074
+      ],
+      "flyOverlay": 0,
+      "main": {
+        "h": 897,
+        "w": 889,
+        "x": 0,
+        "y": 126
+      },
+      "panels": [],
+      "scene": {
+        "h": 444,
+        "w": 374,
+        "x": 491,
+        "y": 428
+      },
+      "sceneError": null,
+      "sceneState": {
+        "camera": "7.415,2.074,8.790",
+        "engine": "three.js r180",
+        "mode": "device",
+        "motion": "idle",
+        "projection": "perspective",
+        "scan": "0.00",
+        "sceneId": "1"
+      },
+      "style": "light page-diagnosis",
+      "url": "http://127.0.0.1:5273/?style=light&page=diagnosis",
+      "viewport": [
+        900,
+        700
+      ]
+    },
+    {
+      "charts": [
+        {
+          "pointRadius": "3.5",
+          "rect": {
+            "h": 178,
+            "w": 380,
+            "x": 172,
+            "y": 479
+          },
+          "type": "9px",
+          "viewBox": "0 0 380 178"
+        }
+      ],
+      "document": [
+        889,
+        1044
+      ],
+      "flyOverlay": 0,
+      "main": {
+        "h": 867,
+        "w": 889,
+        "x": 0,
+        "y": 126
+      },
+      "panels": [
+        {
+          "class": "light-report",
+          "client": 721,
+          "overflow": "visible",
+          "rect": {
+            "h": 721,
+            "w": 424,
+            "x": 150,
+            "y": 273
+          },
+          "scroll": 721
+        },
+        {
+          "class": "verification-panel",
+          "client": 548,
+          "overflow": "visible",
+          "rect": {
+            "h": 548,
+            "w": 275,
+            "x": 591,
+            "y": 273
+          },
+          "scroll": 548
+        }
+      ],
+      "scene": null,
+      "sceneError": null,
+      "sceneState": {},
+      "style": "light page-review",
+      "url": "http://127.0.0.1:5273/?style=light&page=review",
+      "viewport": [
+        900,
+        700
+      ]
+    },
+    {
+      "charts": [],
+      "document": [
+        889,
+        933
+      ],
+      "flyOverlay": 0,
+      "main": {
+        "h": 780,
+        "w": 889,
+        "x": 0,
+        "y": 115
+      },
+      "panels": [],
+      "scene": {
+        "h": 780,
+        "w": 889,
+        "x": 0,
+        "y": 115
+      },
+      "sceneError": null,
+      "sceneState": {
+        "camera": "28.000,34.000,40.000",
+        "engine": "three.js r180",
+        "mode": "map",
+        "motion": "idle",
+        "projection": "perspective",
+        "scan": "0.00",
+        "sceneId": "1"
+      },
+      "style": "immersive page-map",
+      "url": "http://127.0.0.1:5273/?style=immersive&page=map",
+      "viewport": [
+        900,
+        700
+      ]
+    },
+    {
+      "charts": [],
+      "document": [
+        889,
+        943
+      ],
+      "flyOverlay": 0,
+      "main": {
+        "h": 790,
+        "w": 889,
+        "x": 0,
+        "y": 115
+      },
+      "panels": [],
+      "scene": {
+        "h": 790,
+        "w": 889,
+        "x": 0,
+        "y": 115
+      },
+      "sceneError": null,
+      "sceneState": {
+        "camera": "7.487,2.122,8.790",
+        "engine": "three.js r180",
+        "mode": "device",
+        "motion": "idle",
+        "projection": "perspective",
+        "scan": "0.00",
+        "sceneId": "1"
+      },
+      "style": "immersive page-diagnosis",
+      "url": "http://127.0.0.1:5273/?style=immersive&page=diagnosis",
+      "viewport": [
+        900,
+        700
+      ]
+    },
+    {
+      "charts": [
+        {
+          "pointRadius": "3.5",
+          "rect": {
+            "h": 199,
+            "w": 795,
+            "x": 47,
+            "y": 359
+          },
+          "type": "9px",
+          "viewBox": "0 0 795 199"
+        }
+      ],
+      "document": [
+        889,
+        1377
+      ],
+      "flyOverlay": 0,
+      "main": {
+        "h": 1224,
+        "w": 889,
+        "x": 0,
+        "y": 115
+      },
+      "panels": [
+        {
+          "class": "recovery-story",
+          "client": 603,
+          "overflow": "visible",
+          "rect": {
+            "h": 603,
+            "w": 833,
+            "x": 28,
+            "y": 147
+          },
+          "scroll": 603
+        },
+        {
+          "class": "cinema-signoff",
+          "client": 527,
+          "overflow": "visible",
+          "rect": {
+            "h": 527,
+            "w": 833,
+            "x": 28,
+            "y": 780
+          },
+          "scroll": 527
+        },
+        {
+          "class": "verification-panel",
+          "client": 525,
+          "overflow": "visible",
+          "rect": {
+            "h": 527,
+            "w": 599,
+            "x": 28,
+            "y": 780
+          },
+          "scroll": 525
+        }
+      ],
+      "scene": null,
+      "sceneError": null,
+      "sceneState": {},
+      "style": "immersive page-review",
+      "url": "http://127.0.0.1:5273/?style=immersive&page=review",
+      "viewport": [
+        900,
+        700
+      ]
+    },
+    {
+      "charts": [],
+      "document": [
+        524,
+        1188
+      ],
+      "flyOverlay": 0,
+      "main": {
+        "h": 1025,
+        "w": 524,
+        "x": 0,
+        "y": 113
+      },
+      "panels": [
+        {
+          "class": "industrial-station-rail",
+          "client": 363,
+          "overflow": "visible",
+          "rect": {
+            "h": 364,
+            "w": 490,
+            "x": 17,
+            "y": 773
+          },
+          "scroll": 363
+        }
+      ],
+      "scene": {
+        "h": 441,
+        "w": 490,
+        "x": 17,
+        "y": 332
+      },
+      "sceneError": null,
+      "sceneState": {
+        "camera": "27.000,36.000,34.000",
+        "engine": "three.js r180",
+        "mode": "map",
+        "motion": "idle",
+        "projection": "orthographic",
+        "scan": "0.00",
+        "sceneId": "1"
+      },
+      "style": "precision page-map",
+      "url": "http://127.0.0.1:5273/?style=precision&page=map",
+      "viewport": [
+        535,
+        760
+      ]
+    },
+    {
+      "charts": [
+        {
+          "pointRadius": "3.5",
+          "rect": {
+            "h": 160,
+            "w": 448,
+            "x": 38,
+            "y": 1363
+          },
+          "type": "9px",
+          "viewBox": "0 0 448 160"
+        }
+      ],
+      "document": [
+        524,
+        1620
+      ],
+      "flyOverlay": 0,
+      "main": {
+        "h": 1457,
+        "w": 524,
+        "x": 0,
+        "y": 113
+      },
+      "panels": [
+        {
+          "class": "engineering-evidence",
+          "client": 602,
+          "overflow": "visible",
+          "rect": {
+            "h": 602,
+            "w": 490,
+            "x": 17,
+            "y": 682
+          },
+          "scroll": 602
+        }
+      ],
+      "scene": {
+        "h": 441,
+        "w": 490,
+        "x": 17,
+        "y": 241
+      },
+      "sceneError": null,
+      "sceneState": {
+        "camera": "7.415,2.458,8.790",
+        "engine": "three.js r180",
+        "mode": "device",
+        "motion": "idle",
+        "projection": "orthographic",
+        "scan": "0.00",
+        "sceneId": "1"
+      },
+      "style": "precision page-diagnosis",
+      "url": "http://127.0.0.1:5273/?style=precision&page=diagnosis",
+      "viewport": [
+        535,
+        760
+      ]
+    },
+    {
+      "charts": [
+        {
+          "pointRadius": "3.5",
+          "rect": {
+            "h": 170,
+            "w": 444,
+            "x": 40,
+            "y": 458
+          },
+          "type": "9px",
+          "viewBox": "0 0 444 170"
+        }
+      ],
+      "document": [
+        524,
+        1499
+      ],
+      "flyOverlay": 0,
+      "main": {
+        "h": 1336,
+        "w": 524,
+        "x": 0,
+        "y": 113
+      },
+      "panels": [
+        {
+          "class": "review-evidence-scroll",
+          "client": 734,
+          "overflow": "visible",
+          "rect": {
+            "h": 734,
+            "w": 490,
+            "x": 17,
+            "y": 241
+          },
+          "scroll": 734
+        },
+        {
+          "class": "verification-panel",
+          "client": 473,
+          "overflow": "visible",
+          "rect": {
+            "h": 473,
+            "w": 490,
+            "x": 17,
+            "y": 976
+          },
+          "scroll": 473
+        }
+      ],
+      "scene": null,
+      "sceneError": null,
+      "sceneState": {},
+      "style": "precision page-review",
+      "url": "http://127.0.0.1:5273/?style=precision&page=review",
+      "viewport": [
+        535,
+        760
+      ]
+    },
+    {
+      "charts": [],
+      "document": [
+        524,
+        1204
+      ],
+      "flyOverlay": 0,
+      "main": {
+        "h": 1037,
+        "w": 524,
+        "x": 0,
+        "y": 118
+      },
+      "panels": [
+        {
+          "class": "task-column",
+          "client": 321,
+          "overflow": "visible",
+          "rect": {
+            "h": 321,
+            "w": 492,
+            "x": 16,
+            "y": 253
+          },
+          "scroll": 321
+        }
+      ],
+      "scene": {
+        "h": 441,
+        "w": 492,
+        "x": 16,
+        "y": 591
+      },
+      "sceneError": null,
+      "sceneState": {
+        "camera": "32.000,37.000,39.000",
+        "engine": "three.js r180",
+        "mode": "map",
+        "motion": "idle",
+        "projection": "perspective",
+        "scan": "0.00",
+        "sceneId": "1"
+      },
+      "style": "light page-map",
+      "url": "http://127.0.0.1:5273/?style=light&page=map",
+      "viewport": [
+        535,
+        760
+      ]
+    },
+    {
+      "charts": [
+        {
+          "pointRadius": "3.5",
+          "rect": {
+            "h": 170,
+            "w": 446,
+            "x": 39,
+            "y": 507
+          },
+          "type": "9px",
+          "viewBox": "0 0 446 170"
+        }
+      ],
+      "document": [
+        524,
+        1621
+      ],
+      "flyOverlay": 0,
+      "main": {
+        "h": 1453,
+        "w": 524,
+        "x": 0,
+        "y": 118
+      },
+      "panels": [],
+      "scene": {
+        "h": 395,
+        "w": 490,
+        "x": 17,
+        "y": 966
+      },
+      "sceneError": null,
+      "sceneState": {
+        "camera": "7.415,2.074,8.790",
+        "engine": "three.js r180",
+        "mode": "device",
+        "motion": "idle",
+        "projection": "perspective",
+        "scan": "0.00",
+        "sceneId": "1"
+      },
+      "style": "light page-diagnosis",
+      "url": "http://127.0.0.1:5273/?style=light&page=diagnosis",
+      "viewport": [
+        535,
+        760
+      ]
+    },
+    {
+      "charts": [
+        {
+          "pointRadius": "3.5",
+          "rect": {
+            "h": 165,
+            "w": 446,
+            "x": 39,
+            "y": 556
+          },
+          "type": "9px",
+          "viewBox": "0 0 446 165"
+        }
+      ],
+      "document": [
+        524,
+        1622
+      ],
+      "flyOverlay": 0,
+      "main": {
+        "h": 1454,
+        "w": 524,
+        "x": 0,
+        "y": 118
+      },
+      "panels": [
+        {
+          "class": "light-report",
+          "client": 658,
+          "overflow": "visible",
+          "rect": {
+            "h": 658,
+            "w": 492,
+            "x": 16,
+            "y": 349
+          },
+          "scroll": 658
+        },
+        {
+          "class": "verification-panel",
+          "client": 548,
+          "overflow": "visible",
+          "rect": {
+            "h": 548,
+            "w": 492,
+            "x": 16,
+            "y": 1023
+          },
+          "scroll": 548
+        }
+      ],
+      "scene": null,
+      "sceneError": null,
+      "sceneState": {},
+      "style": "light page-review",
+      "url": "http://127.0.0.1:5273/?style=light&page=review",
+      "viewport": [
+        535,
+        760
+      ]
+    },
+    {
+      "charts": [],
+      "document": [
+        524,
+        1011
+      ],
+      "flyOverlay": 0,
+      "main": {
+        "h": 860,
+        "w": 524,
+        "x": 0,
+        "y": 113
+      },
+      "panels": [],
+      "scene": {
+        "h": 860,
+        "w": 524,
+        "x": 0,
+        "y": 113
+      },
+      "sceneError": null,
+      "sceneState": {
+        "camera": "39.061,47.234,55.802",
+        "engine": "three.js r180",
+        "mode": "map",
+        "motion": "idle",
+        "projection": "perspective",
+        "scan": "0.00",
+        "sceneId": "1"
+      },
+      "style": "immersive page-map",
+      "url": "http://127.0.0.1:5273/?style=immersive&page=map",
+      "viewport": [
+        535,
+        760
+      ]
+    },
+    {
+      "charts": [],
+      "document": [
+        524,
+        1301
+      ],
+      "flyOverlay": 0,
+      "main": {
+        "h": 1150,
+        "w": 524,
+        "x": 0,
+        "y": 113
+      },
+      "panels": [],
+      "scene": {
+        "h": 492,
+        "w": 524,
+        "x": 0,
+        "y": 287
+      },
+      "sceneError": null,
+      "sceneState": {
+        "camera": "7.487,2.122,8.790",
+        "engine": "three.js r180",
+        "mode": "device",
+        "motion": "idle",
+        "projection": "perspective",
+        "scan": "0.00",
+        "sceneId": "1"
+      },
+      "style": "immersive page-diagnosis",
+      "url": "http://127.0.0.1:5273/?style=immersive&page=diagnosis",
+      "viewport": [
+        535,
+        760
+      ]
+    },
+    {
+      "charts": [
+        {
+          "pointRadius": "3.5",
+          "rect": {
+            "h": 173,
+            "w": 452,
+            "x": 36,
+            "y": 328
+          },
+          "type": "9px",
+          "viewBox": "0 0 452 173"
+        }
+      ],
+      "document": [
+        524,
+        1405
+      ],
+      "flyOverlay": 0,
+      "main": {
+        "h": 1254,
+        "w": 524,
+        "x": 0,
+        "y": 113
+      },
+      "panels": [
+        {
+          "class": "recovery-story",
+          "client": 554,
+          "overflow": "visible",
+          "rect": {
+            "h": 554,
+            "w": 484,
+            "x": 20,
+            "y": 140
+          },
+          "scroll": 554
+        },
+        {
+          "class": "cinema-signoff",
+          "client": 620,
+          "overflow": "visible",
+          "rect": {
+            "h": 620,
+            "w": 484,
+            "x": 20,
+            "y": 720
+          },
+          "scroll": 620
+        },
+        {
+          "class": "verification-panel",
+          "client": 530,
+          "overflow": "visible",
+          "rect": {
+            "h": 532,
+            "w": 484,
+            "x": 20,
+            "y": 720
+          },
+          "scroll": 530
+        }
+      ],
+      "scene": null,
+      "sceneError": null,
+      "sceneState": {},
+      "style": "immersive page-review",
+      "url": "http://127.0.0.1:5273/?style=immersive&page=review",
+      "viewport": [
+        535,
+        760
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "style": "precision",
+      "before": {
+        "camera": "27.000,36.000,34.000",
+        "engine": "three.js r180",
+        "mode": "map",
+        "motion": "idle",
+        "projection": "orthographic",
+        "scan": "0.00",
+        "sceneId": "1"
+      },
+      "after": {
+        "camera": "7.415,2.458,8.790",
+        "engine": "three.js r180",
+        "mode": "device",
+        "motion": "idle",
+        "overlay": 0,
+        "projection": "orthographic",
+        "scan": "0.00",
+        "sceneId": "1"
+      },
+      "part": {
+        "camera": "7.413,2.457,8.787",
+        "engine": "three.js r180",
+        "mode": "device",
+        "motion": "moving",
+        "projection": "orthographic",
+        "scan": "0.00",
+        "sceneId": "1"
+      },
+      "exploded": {
+        "button": "合拢结构",
+        "scene": {
+          "camera": "7.969,2.727,9.635",
+          "engine": "three.js r180",
+          "mode": "device",
+          "motion": "idle",
+          "projection": "orthographic",
+          "scan": "0.00",
+          "sceneId": "1"
+        }
+      }
+    },
+    {
+      "style": "light",
+      "before": {
+        "camera": "32.000,37.000,39.000",
+        "engine": "three.js r180",
+        "mode": "map",
+        "motion": "idle",
+        "projection": "perspective",
+        "scan": "0.00",
+        "sceneId": "1"
+      },
+      "after": {
+        "camera": "7.415,2.074,8.790",
+        "engine": "three.js r180",
+        "mode": "device",
+        "motion": "idle",
+        "overlay": 0,
+        "projection": "perspective",
+        "scan": "0.00",
+        "sceneId": "1"
+      },
+      "part": {
+        "camera": "7.400,2.084,8.764",
+        "engine": "three.js r180",
+        "mode": "device",
+        "motion": "moving",
+        "projection": "perspective",
+        "scan": "0.00",
+        "sceneId": "1"
+      },
+      "exploded": {
+        "button": "合拢结构",
+        "scene": {
+          "camera": "7.969,2.248,9.635",
+          "engine": "three.js r180",
+          "mode": "device",
+          "motion": "idle",
+          "projection": "perspective",
+          "scan": "0.00",
+          "sceneId": "1"
+        }
+      }
+    },
+    {
+      "style": "immersive",
+      "before": {
+        "camera": "28.000,34.000,40.000",
+        "engine": "three.js r180",
+        "mode": "map",
+        "motion": "idle",
+        "projection": "perspective",
+        "scan": "0.00",
+        "sceneId": "1"
+      },
+      "after": {
+        "camera": "7.487,2.122,8.790",
+        "engine": "three.js r180",
+        "mode": "device",
+        "motion": "idle",
+        "overlay": 0,
+        "projection": "perspective",
+        "scan": "0.00",
+        "sceneId": "1"
+      },
+      "part": {
+        "camera": "7.458,2.134,8.751",
+        "engine": "three.js r180",
+        "mode": "device",
+        "motion": "moving",
+        "projection": "perspective",
+        "scan": "0.00",
+        "sceneId": "1"
+      },
+      "exploded": {
+        "button": "合拢结构",
+        "scene": {
+          "camera": "8.057,2.304,9.635",
+          "engine": "three.js r180",
+          "mode": "device",
+          "motion": "idle",
+          "projection": "perspective",
+          "scan": "0.00",
+          "sceneId": "1"
+        }
+      }
+    }
+  ],
+  "workflows": [
+    {
+      "style": "precision",
+      "guard": "请先完成三项核查",
+      "returned": "现场复核中",
+      "resubmitChecks": [
+        false,
+        false,
+        false
+      ],
+      "closed": "核查完成",
+      "map": {
+        "mode": "map",
+        "warningCards": 0,
+        "warningLabels": 0
+      }
+    },
+    {
+      "style": "light",
+      "guard": "请先完成三项核查",
+      "returned": "现场复核中",
+      "resubmitChecks": [
+        false,
+        false,
+        false
+      ],
+      "closed": "核查完成",
+      "map": {
+        "mode": "map",
+        "warningCards": 0,
+        "warningLabels": 0
+      }
+    },
+    {
+      "style": "immersive",
+      "guard": "请先完成三项核查",
+      "returned": "现场复核中",
+      "resubmitChecks": [
+        false,
+        false,
+        false
+      ],
+      "closed": "核查完成",
+      "map": {
+        "mode": "map",
+        "warningCards": 0,
+        "warningLabels": 0
+      }
+    }
+  ],
+  "hover": {
+    "camera": "7.487,2.122,8.790",
+    "engine": "three.js r180",
+    "mode": "device",
+    "motion": "idle",
+    "projection": "perspective",
+    "scan": "1.00",
+    "sceneId": "1"
+  },
+  "chartKeyboard": "11:55 · 78.6 °C",
+  "console": []
+}
