@@ -1,0 +1,122 @@
+{
+  "version": "V2",
+  "verifiedAt": "2026-10-23T11:51:37.442Z",
+  "browser": "Codex in-app browser",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "pages": [
+    {
+      "canvas": "可旋转的三维流域地形",
+      "heading": "流域运行",
+      "height": 720,
+      "sceneError": null,
+      "scrollWidth": 1265,
+      "stationLabels": 5,
+      "url": "http://127.0.0.1:5273/?style=precision&page=map",
+      "width": 1280
+    },
+    {
+      "canvas": "可旋转的精细水轮发电机剖面",
+      "heading": "上导轴承温升",
+      "height": 720,
+      "sceneError": null,
+      "scrollWidth": 1265,
+      "stationLabels": 2,
+      "url": "http://127.0.0.1:5273/?style=precision&page=diagnosis",
+      "width": 1280
+    },
+    {
+      "canvas": null,
+      "heading": "关单核查",
+      "height": 720,
+      "sceneError": null,
+      "scrollWidth": 1265,
+      "stationLabels": 0,
+      "url": "http://127.0.0.1:5273/?style=precision&page=review",
+      "width": 1280
+    },
+    {
+      "canvas": "可旋转的三维流域地形",
+      "heading": "下午好，陈工。",
+      "height": 720,
+      "sceneError": null,
+      "scrollWidth": 1265,
+      "stationLabels": 5,
+      "url": "http://127.0.0.1:5273/?style=light&page=map",
+      "width": 1280
+    },
+    {
+      "canvas": "可旋转的精细水轮发电机剖面",
+      "heading": "官地 · 3 号机组",
+      "height": 720,
+      "sceneError": null,
+      "scrollWidth": 1265,
+      "stationLabels": 2,
+      "url": "http://127.0.0.1:5273/?style=light&page=diagnosis",
+      "width": 1280
+    },
+    {
+      "canvas": null,
+      "heading": "恢复运行，等待核查",
+      "height": 720,
+      "sceneError": null,
+      "scrollWidth": 1265,
+      "stationLabels": 0,
+      "url": "http://127.0.0.1:5273/?style=light&page=review",
+      "width": 1280
+    },
+    {
+      "canvas": "可旋转的三维流域地形",
+      "heading": "雅砻江\n流域巡览",
+      "height": 720,
+      "sceneError": null,
+      "scrollWidth": 1265,
+      "stationLabels": 5,
+      "url": "http://127.0.0.1:5273/?style=immersive&page=map",
+      "width": 1280
+    },
+    {
+      "canvas": "可旋转的精细水轮发电机剖面",
+      "heading": "故障\n定位",
+      "height": 720,
+      "sceneError": null,
+      "scrollWidth": 1265,
+      "stationLabels": 2,
+      "url": "http://127.0.0.1:5273/?style=immersive&page=diagnosis",
+      "width": 1280
+    },
+    {
+      "canvas": null,
+      "heading": "机组已恢复\n稳定运行。",
+      "height": 720,
+      "sceneError": null,
+      "scrollWidth": 1265,
+      "stationLabels": 0,
+      "url": "http://127.0.0.1:5273/?style=immersive&page=review",
+      "width": 1280
+    }
+  ],
+  "consoleErrors": [],
+  "interactions": {
+    "stationFocus": "passed; station close-up screenshot saved",
+    "mapLabels": "passed; hide and restore",
+    "explode": "passed; top cap remains inside stage after camera adjustment",
+    "partSelection": "passed; cooling pipes highlight",
+    "metricSwitch": "passed; values, thresholds and point names change together",
+    "immersiveTrend": "passed; expand and temperature/vibration switch",
+    "inspectionRecord": "passed; open and close",
+    "closeOrderGuard": "passed; unchecked items prevent close",
+    "closeOrder": "passed; three checks permit close and archive",
+    "mapAfterClose": "passed; alert clears and pending count becomes zero",
+    "returnForRecheck": "passed; selected reason displayed and checks disabled",
+    "resubmit": "passed; restores unchecked review state"
+  },
+  "comparison": {
+    "images": 9,
+    "allLoaded": true,
+    "horizontalOverflow": false
+  },
+  "scope": "Local visual and interaction demo; no production backend."
+}
