@@ -4,7 +4,8 @@
   "type": "module",
   "scripts": {
     "dev": "node server.mjs",
-    "preview": "node preview-version.mjs"
+    "preview": "node preview-version.mjs",
+    "test": "node --test tests/workflow.test.mjs"
   },
   "dependencies": {
     "three": "0.180.0"

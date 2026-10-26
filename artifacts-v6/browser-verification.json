@@ -1,0 +1,260 @@
+{
+  "date": "2026-10-26",
+  "entry": "ai-workbench.html",
+  "unitTests": 17,
+  "browser": "In-app browser",
+  "checks": [
+    {
+      "test": "Missing acceptance blocks progression",
+      "visible": "请确认是否认可该缺陷"
+    },
+    {
+      "test": "Site result required after requesting verification",
+      "visible": "现场复核尚未回传"
+    },
+    {
+      "test": "Role handoff blocks dispatch",
+      "enabled": false
+    },
+    {
+      "test": "Schedule conflict blocks dispatch",
+      "visible": "14:00—14:20 与邻近设备巡检冲突，请调整时段"
+    },
+    {
+      "test": "Working permit return reopens draft and invalidates downstream",
+      "dom": {
+        "actor": "leader",
+        "phase": "2",
+        "shownPhase": "2",
+        "status": "returned",
+        "view": "task"
+      }
+    },
+    {
+      "test": "Reordered operation steps blocked",
+      "visible": "操作顺序存在冲突：核对、停运、隔离、核验交接"
+    },
+    {
+      "test": "Denied operating permit returns to draft and keeps execution locked",
+      "dom": {
+        "actor": "chief",
+        "executionLocked": true,
+        "phase": "4",
+        "shownPhase": "4",
+        "status": "returned",
+        "view": "task"
+      }
+    },
+    {
+      "test": "Execution starts only after both permits",
+      "startEnabled": true
+    },
+    {
+      "test": "Below-threshold retest cannot close order",
+      "visible": "绝缘复测低于演示验收线，需要补充复测"
+    },
+    {
+      "test": "Closure keeps knowledge confirmation pending",
+      "dom": {
+        "actor": "leader",
+        "phase": "8",
+        "shownPhase": "8",
+        "status": "pending",
+        "view": "task"
+      }
+    },
+    {
+      "test": "Knowledge cannot auto-publish",
+      "visible": "请核对案例后确认入库"
+    },
+    {
+      "test": "Human confirmation completes all eight phases and execution",
+      "dom": {
+        "actor": "leader",
+        "finished": 9,
+        "phase": "9",
+        "shownPhase": "8",
+        "status": "complete",
+        "view": "task"
+      }
+    },
+    {
+      "test": "State persists after reload",
+      "dom": {
+        "actor": "leader",
+        "phase": "9",
+        "shownPhase": "8",
+        "status": "complete",
+        "view": "task"
+      }
+    },
+    {
+      "test": "Responsive closure",
+      "documentWidth": 1024,
+      "overflow": [],
+      "plot": [
+        {
+          "height": 248,
+          "viewBox": "0 0 511 248",
+          "width": 511
+        }
+      ],
+      "viewport": [
+        1024,
+        600
+      ]
+    },
+    {
+      "test": "Responsive closure",
+      "documentWidth": 520,
+      "overflow": [],
+      "plot": [
+        {
+          "height": 215,
+          "viewBox": "0 0 444 215",
+          "width": 444
+        }
+      ],
+      "viewport": [
+        535,
+        760
+      ]
+    },
+    {
+      "test": "Responsive closure",
+      "documentWidth": 375,
+      "overflow": [],
+      "plot": [
+        {
+          "height": 215,
+          "viewBox": "0 0 299 215",
+          "width": 299
+        }
+      ],
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "test": "Held task blocks submit",
+      "enabled": false
+    },
+    {
+      "test": "Resume reports current status",
+      "notice": "已恢复处理\n继续当前环节，后续仍需对应责任人确认。\n×"
+    },
+    {
+      "test": "Expanded plan reaches working permit scope",
+      "text": "工作地点\n柯拉光伏 / 7# 逆变器\n检修范围\n7# 全部直流支路排查\n执行 / 监督\n张涛 / 周岩"
+    },
+    {
+      "test": "No field facts fabricated before execution",
+      "values": [
+        {
+          "disabled": true,
+          "path": "execution.record",
+          "value": ""
+        },
+        {
+          "disabled": true,
+          "path": "execution.insulation",
+          "value": ""
+        },
+        {
+          "disabled": true,
+          "path": "execution.duration",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "test": "Field submission is present in visible history with measured value",
+      "text": "暂缓\n10:54:27\n\n林溪 / 运行人员 · 故障确认\n\n等待现场复核信息\n恢复处理\n10:54:27\n\n林溪 / 运行人员 · 故障确认\n\n继续当前环节\n确认缺陷\n10:55:28\n\n林溪 / 运行人员 · 故障确认\n\n移交下一责任角色\n复核通过并派单\n10:55:28\n\n陈工 / 检修组长 · 工单复核与派单\n\n移交下一责任角色\n提交工作票\n10:55:29\n\n张涛 / 检修人员 · 工作票提交\n\n移交下一责任角色\n批准工作票\n10:55:31\n\n陈工 / 检修组长 · 工作票审批\n\n移交下一责任角色\n提交操作票\n10:55:48\n\n张涛 / 检修人员 · 操作票提交\n\n移交下一责任角色\n许可作业\n10:55:49\n\n王铭 / 值长 · 操作票审批\n\n移交下一责任角色\n接收许可 · 开始执行\n10:55:50\n\n张涛 / 检修人员 · 现场执行\n\n执行人 张涛；监督员 周岩\n提交执行记录\n10:55:52\n\n张涛 / 检修人员 · 现场执行\n\n移交下一责任角色\n绝缘复测 1.64 MΩ · 工时 1.5 h\n验收结案\n10:55:53\n\n陈工 / 检修组长 · 工单结案\n\n工单已结案，待确认知识沉淀\n确认入库\n10:55:54\n\n陈工 / 检修组长 · 知识沉淀\n\n案例已入库，故障完成闭环"
+    },
+    {
+      "test": "Wind assets selectable",
+      "text": "风电场\n腊巴山风电\n192MW\n\n机组、集电线路与升压设备\n\n运行正常"
+    },
+    {
+      "test": "Storage assets selectable",
+      "text": "储能示例站\n集控储能\n100MWh\n\n电池簇、PCS 与热管理\n\n运行正常"
+    },
+    {
+      "test": "Responsive diagnosis",
+      "canvas": [
+        {
+          "height": 253,
+          "mode": "device",
+          "width": 551
+        }
+      ],
+      "documentWidth": 1024,
+      "futureStagesLocked": true,
+      "overflow": [],
+      "plot": [
+        {
+          "height": 165,
+          "viewBox": "0 0 511 165",
+          "width": 511
+        }
+      ],
+      "viewport": [
+        1024,
+        600
+      ]
+    },
+    {
+      "test": "Responsive diagnosis",
+      "canvas": [
+        {
+          "height": 273,
+          "mode": "device",
+          "width": 484
+        }
+      ],
+      "documentWidth": 520,
+      "futureStagesLocked": true,
+      "overflow": [],
+      "plot": [
+        {
+          "height": 180,
+          "viewBox": "0 0 444 180",
+          "width": 444
+        }
+      ],
+      "viewport": [
+        535,
+        760
+      ]
+    },
+    {
+      "test": "Responsive diagnosis",
+      "canvas": [
+        {
+          "height": 273,
+          "mode": "device",
+          "width": 339
+        }
+      ],
+      "documentWidth": 375,
+      "futureStagesLocked": true,
+      "overflow": [],
+      "plot": [
+        {
+          "height": 180,
+          "viewBox": "0 0 299 180",
+          "width": 299
+        }
+      ],
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "test": "Console errors",
+      "logs": []
+    }
+  ]
+}
