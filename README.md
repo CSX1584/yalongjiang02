@@ -28,6 +28,7 @@ npm run dev
 
 ## V5 更新
 
+- 精密工业仍以浅色为主：浅灰绘图面、深灰结构线、白模与柔和投影；故障部件及趋势保留橙色。
 - 精密工业的设备页改为独立的剖面结构模型。可切换“解剖 / 线框”，查看轴承瓦块、定转子、转轮和冷却水滤网的内部结构；支持纵向展开。
 - 点击温升告警、流量/压差读数、底部部件按钮或场景标注，平滑聚焦到对应部件。选中部件保留橙色，其余结构退为淡线框。“整机”返回全貌。
 - 模型占据左侧完整工作高度，趋势证据置于右侧。低高度窗口的诊断侧栏独立滚动；窄窗口按模型、异常、处理、趋势顺序展开。
@@ -78,11 +79,11 @@ npm run dev
 | V2 · 独立布局与精细 3D | `archive-v2-20261023` | [下载 V2](https://github.com/CSX1584/yalongjiang02/releases/tag/archive-v2-20261023) |
 | V3 · 自适应与连续运镜 | `archive-v3-20261023` | [下载 V3](https://github.com/CSX1584/yalongjiang02/releases/tag/archive-v3-20261023) |
 | V4 · 浅色空间与精密工业 | `archive-v4-20261023` | [下载 V4](https://github.com/CSX1584/yalongjiang02/releases/tag/archive-v4-20261023) |
-| V5 · 解剖线框与白模总图 | `archive-v5-20261026` | [下载 V5](https://github.com/CSX1584/yalongjiang02/releases/tag/archive-v5-20261026) |
+| V5 · 浅色剖面与白模总图 | `archive-v5-light-20261026` | [下载 V5](https://github.com/CSX1584/yalongjiang02/releases/tag/archive-v5-light-20261026) |
 
 请下载 Release 中的 `yalongjiang-vX-日期.zip`。这些包包含 Three.js 依赖，无需 `npm install`；仍需本机安装 Node.js。解压后双击 `启动预览.command`，或运行 `node preview-version.mjs`。关闭终端即可停止该版本。
 
-GitHub 自动生成的 Source code ZIP 仅含源码，需要先执行 `npm ci`。所有固定标签和 Release 包单独保留。
+GitHub 自动生成的 Source code ZIP 仅含源码，需要先执行 `npm ci`。所有固定标签和 Release 包单独保留。浅色调整前的中间提交另保存在 `archive-v5-20261026`，正式 V5 下载包使用 `archive-v5-light-20261026`。
 
 ## 版本与验证
 
@@ -90,7 +91,7 @@ GitHub 自动生成的 Source code ZIP 仅含源码，需要先执行 `npm ci`�
 - `refine/layout-and-3d-v2` 与 `archive-v2-20261023`：V2 布局及 3D 精修。
 - `refine/responsive-motion-v3` 与 `archive-v3-20261023`：V3 高度自适应、中性色、连续运镜及悬停扫描。
 - `refine/space-and-precision-v4` 与 `archive-v4-20261023`：V4 浅色沉浸、宽幅核查、正交工业视图及直接页面切换。
-- `refine/precision-anatomy-v5` 与 `archive-v5-20261026`：V5 剖面/线框、故障局部淡化及平面白模地图。
+- `refine/precision-anatomy-v5` 与 `archive-v5-light-20261026`：V5 剖面/线框、故障局部淡化及平面白模地图。
 - `artifacts-v5/`：V5 九页预览、局部聚焦、展开线框、大屏和窄屏示例及浏览器验证记录。
 - `artifacts/`：初版九页预览及当时验证结果。
 - `artifacts-v2/`：V2 九页预览、站区近景、结构展开及浏览器验证记录。

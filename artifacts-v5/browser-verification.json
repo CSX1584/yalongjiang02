@@ -1,5 +1,5 @@
 {
-  "version": "V5",
+  "version": "V5 light",
   "date": "2026-10-26",
   "checks": [
     {
@@ -951,10 +951,170 @@
         1920,
         1080
       ]
+    },
+    {
+      "label": "light-tone-map-1920x1080",
+      "charts": [],
+      "clippedText": [],
+      "overflow": false,
+      "page": "precision page-map",
+      "scene": {
+        "data": {
+          "camera": "15.40",
+          "engine": "anatomy-v5",
+          "focusPart": "cooler",
+          "ghosted": "false",
+          "mode": "map",
+          "motion": "idle",
+          "projection": "orthographic",
+          "scan": "0.00",
+          "scanEnabled": "false",
+          "sceneId": "precision-1",
+          "sceneKind": "planar-masterplan",
+          "visualization": "cutaway"
+        },
+        "host": {
+          "bottom": 1049,
+          "height": 776.40625,
+          "left": 103,
+          "right": 1587,
+          "top": 272.59375,
+          "width": 1484,
+          "x": 103,
+          "y": 272.59375
+        },
+        "rect": {
+          "bottom": 1049,
+          "height": 776.40625,
+          "left": 103,
+          "right": 1587,
+          "top": 272.59375,
+          "width": 1484,
+          "x": 103,
+          "y": 272.59375
+        }
+      },
+      "viewport": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "label": "light-tone-diagnosis-1024x600",
+      "charts": [
+        {
+          "box": "0 0 307 89",
+          "height": 89,
+          "width": 307
+        }
+      ],
+      "clippedText": [],
+      "overflow": false,
+      "page": "precision page-diagnosis",
+      "scene": {
+        "data": {
+          "camera": "5.15",
+          "engine": "anatomy-v5",
+          "focusPart": "whole",
+          "ghosted": "false",
+          "mode": "device",
+          "motion": "idle",
+          "projection": "orthographic",
+          "scan": "0.00",
+          "scanEnabled": "false",
+          "sceneId": "precision-1",
+          "sceneKind": "sectioned-generator",
+          "visualization": "cutaway"
+        },
+        "host": {
+          "bottom": 574,
+          "height": 387.25,
+          "left": 88,
+          "right": 651,
+          "top": 186.75,
+          "width": 563,
+          "x": 88,
+          "y": 186.75
+        },
+        "rect": {
+          "bottom": 574,
+          "height": 387.25,
+          "left": 88,
+          "right": 651,
+          "top": 186.75,
+          "width": 563,
+          "x": 88,
+          "y": 186.75
+        }
+      },
+      "viewport": [
+        1024,
+        600
+      ]
+    },
+    {
+      "label": "light-tone-diagnosis-535x760",
+      "charts": [
+        {
+          "box": "0 0 448 160",
+          "height": 160,
+          "width": 448
+        }
+      ],
+      "clippedText": [],
+      "overflow": false,
+      "page": "precision page-diagnosis",
+      "scene": {
+        "data": {
+          "camera": "5.15",
+          "engine": "anatomy-v5",
+          "focusPart": "whole",
+          "ghosted": "false",
+          "mode": "device",
+          "motion": "idle",
+          "projection": "orthographic",
+          "scan": "0.00",
+          "scanEnabled": "false",
+          "sceneId": "precision-1",
+          "sceneKind": "sectioned-generator",
+          "visualization": "wireframe"
+        },
+        "host": {
+          "bottom": 682.046875,
+          "height": 440.796875,
+          "left": 17,
+          "right": 507,
+          "top": 241.25,
+          "width": 490,
+          "x": 17,
+          "y": 241.25
+        },
+        "rect": {
+          "bottom": 682.046875,
+          "height": 440.796875,
+          "left": 17,
+          "right": 507,
+          "top": 241.25,
+          "width": 490,
+          "x": 17,
+          "y": 241.25
+        }
+      },
+      "viewport": [
+        524,
+        760
+      ]
+    },
+    {
+      "label": "final-light-tone",
+      "mode": "wireframe",
+      "scan": "false",
+      "surface": "rgb(237, 240, 237)"
     }
   ],
   "consoleErrors": [],
   "notes": [
+    "Final precision palette is light gray with dark drawing edges and orange fault highlights.",
     "Precision scene has no pointer-hover shader or light.",
     "All map/device switches are direct.",
     "Early environment blur warning corrected from 0.05 to 0.025."

@@ -80,7 +80,7 @@ export function buildAnatomy(){
 export function buildMasterplan(){
  const root=new T.Group(),pickables=[],anchors=[],rotors=[],stationPositions=new Map();
  const mat=(color,roughness=.9,metalness=0)=>new T.MeshStandardMaterial({color,roughness,metalness});
- const m={ground:mat(0x747474),region:mat(0x585958),region2:mat(0x878787),water:mat(0xababab),white:mat(0xeeeeeC,.68),roof:mat(0xd6d6d4),dark:mat(0x6f7773),glass:mat(0x919b94,.4,.18),sphere:mat(0x4c5450,.33,.65),selected:mat(0xf6f3e8,.3,.2)};
+ const m={ground:mat(0xb1b4b1),region:mat(0x909390),region2:mat(0xc0c2bc),water:mat(0xd6dbd4),white:mat(0xeeeeeC,.68),roof:mat(0xd6d6d4),dark:mat(0x6f7773),glass:mat(0x919b94,.4,.18),sphere:mat(0x4c5450,.33,.65),selected:mat(0xf6f3e8,.3,.2)};
  const geometryCache=new Map();
  function mesh(g,material,parent=root){const o=new T.Mesh(g,material);o.castShadow=true;o.receiveShadow=true;parent.add(o);return o}
  function box(w,h,d,x,y,z,material=m.white,parent=root){let key=[w,h,d].join();if(!geometryCache.has(key))geometryCache.set(key,new T.BoxGeometry(w,h,d));const o=mesh(geometryCache.get(key),material,parent);o.position.set(x,y,z);return o}

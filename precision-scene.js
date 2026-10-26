@@ -6,7 +6,7 @@ const ease=t=>t*t*t*(t*(t*6-15)+10);
 let instance=0;
 export function createPrecisionScene(initialHost,initialOptions){
  let host=initialHost,opt={...initialOptions},mode=opt.mode,dead=false,suspended=false,flight=null,halfHeight=6,aspect=1,lastTime=performance.now(),explosion=0;
- const colors={active:new T.Color(0xe96636),shaft:new T.Color(0x6c7672),body:new T.Color(0x40494a),activeLine:new T.Color(0xffb086),line:new T.Color(0xbac5bc)};
+ const colors={active:new T.Color(0xe96636),shaft:new T.Color(0xb2b8b3),body:new T.Color(0x9ca19f),activeLine:new T.Color(0xb35429),line:new T.Color(0x46534b)};
  const reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
  const renderer=new T.WebGLRenderer({antialias:true,alpha:true,powerPreference:'high-performance'});
  renderer.setPixelRatio(Math.min(devicePixelRatio,1.7));renderer.shadowMap.enabled=true;renderer.shadowMap.type=T.PCFSoftShadowMap;
@@ -39,14 +39,14 @@ export function createPrecisionScene(initialHost,initialOptions){
  function rebuildLabels(){labels.innerHTML='';const source=mode==='map'?plan.anchors:anatomy.anchors;
   for(const a of source){const el=document.createElement('button');el.className=mode==='map'?'plan-label':'anatomy-label';el.type='button';el.dataset.object=a.id;el.setAttribute('aria-label',mode==='map'?'定位'+a.name:'定位'+a.name);el.innerHTML=mode==='map'?`<span>${a.name}</span>${a.id==='guandi'&&!opt.closed?'<i></i>':''}`:`<span>${a.name}</span><small>${a.id==='bearing'?(opt.closed?'64.2':'78.6')+'°C':a.id==='cooler'?'F-302':'UNIT 03'}</small>`;el.addEventListener('click',()=>opt.onSelect?.(a.id));labels.appendChild(el);a.el=el;}
  }
- function sync(previousMode){const map=mode==='map';plan.root.visible=map;anatomy.root.visible=!map;world.background=map?new T.Color(0xaeb1ae):null;renderer.setClearColor(map?0xaeb1ae:0x161a1b,map?1:0);sun.castShadow=map;sun.intensity=map?3:1.8;ambient.intensity=map?.3:.95;world.environmentIntensity=map?.25:.48;renderer.toneMappingExposure=map?.97:1.12;controls.maxPolarAngle=map?Math.PI*.48:Math.PI*.85;
+ function sync(previousMode){const map=mode==='map';plan.root.visible=map;anatomy.root.visible=!map;world.background=map?new T.Color(0xaeb1ae):null;renderer.setClearColor(map?0xaeb1ae:0xedf0ed,map?1:0);sun.castShadow=map;sun.intensity=map?3:1.8;ambient.intensity=map?.3:.95;world.environmentIntensity=map?.25:.48;renderer.toneMappingExposure=map?.97:1.12;controls.maxPolarAngle=map?Math.PI*.48:Math.PI*.85;
   Object.assign(canvas.dataset,{mode,focusPart:opt.focusedPart||'whole',visualization:opt.deviceMode||'cutaway',sceneKind:map?'planar-masterplan':'sectioned-generator'});
   for(const a of plan.anchors){a.pin.material=a.id===opt.selected?plan.materials.selected:plan.materials.sphere;a.cross.visible=a.id!==opt.selected;}
   rebuildLabels();measure();navigate(previousMode!==mode);
  }
  function updateMaterials(dt){const focus=opt.focusedPart,wire=opt.deviceMode==='wireframe';for(const entry of anatomy.materials){const {id,kind,mat,lineMat}=entry,active=focus?id===focus:id==='bearing'&&!opt.closed,ghost=!!focus&&id!==focus;
    const alpha=ghost?0:wire?(active?.06:0):active?(kind==='shell'?.18:.98):kind==='shell'?.045:.96;
-   const lineAlpha=ghost?(kind==='winding'?.018:.065):active?.8:wire?(kind==='winding'?.38:.62):kind==='shell'?.24:.42;
+   const lineAlpha=ghost?(kind==='winding'?.04:.12):active?.68:wire?(kind==='winding'?.3:.58):kind==='shell'?.26:.42;
    mat.opacity=T.MathUtils.damp(mat.opacity,alpha,10,dt);mat.depthWrite=!ghost&&!wire&&kind!=='shell';lineMat.opacity=T.MathUtils.damp(lineMat.opacity,lineAlpha,10,dt);
    mat.color.lerp(active?colors.active:kind==='shaft'?colors.shaft:colors.body,1-Math.exp(-dt*10));lineMat.color.lerp(active?colors.activeLine:colors.line,1-Math.exp(-dt*10));
   }}

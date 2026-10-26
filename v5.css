@@ -53,3 +53,14 @@
 }
 .precision .plan-label{background:transparent;color:#f4f3e9;font-size:10px;font-weight:500;text-shadow:0 1px 5px #252f2899;letter-spacing:.7px}
 .precision .plan-label.selected{background:transparent;color:#fff8e9}
+/* Light drafting surface: contrast comes from precise edges and section depth. */
+.precision .device-visual{background-color:#edf0ed;background-image:radial-gradient(circle,#778b7b36 .7px,transparent .9px)}
+.precision .device-visual .drawing-ruler,.precision .device-visual .drawing-index{color:#87948a;border-color:#7b8f7c36}
+.precision .device-visual .engineering-corner{color:#8a978c}.precision .device-visual .engineering-corner b{color:#4d5d51}
+.precision .device-visual .engineering-axis{color:#6a8070;opacity:.6}.precision .device-visual .dimension-rule{color:#7a8d7c;opacity:.6}
+.precision .device-visual .scene-foot{color:#7e8f80}
+.precision .anatomy-modes{background:#ffffff9c;border-color:#b7c1b7}.precision .anatomy-modes button{color:#79887b}.precision .anatomy-modes button.active{background:#46554b;color:#f9faf6}
+.precision .device-tools .outline{background:#fbfcf8d9;border-color:#b8c4b9;color:#66776b}.precision .device-tools .anatomy-reset{color:#3e5446}
+.precision .device-visual .part-switch{background:#fbfcf8d9;border-color:#bbc6ba}.precision .device-visual .part-switch button{color:#748378}.precision .device-visual .part-switch button.active{color:#a45b36;background:#f3e3d4}
+.precision .anatomy-label{color:#566f5d;border-bottom-color:#70857355}.precision .anatomy-label:before{background:#718a77}.precision .anatomy-label small{color:#87978a}.precision .anatomy-label.selected{color:#ad5d32;border-bottom-color:#bc764d66}.precision .anatomy-label.selected:before{background:#c87544}.precision .anatomy-label.selected small{color:#a76f4c}
+.precision .plan-label,.precision .plan-label.selected{color:#485b4b;text-shadow:0 1px 5px #ffffffb3}.precision .map-visual{background:#c5ccc3}
