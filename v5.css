@@ -1,0 +1,55 @@
+/* V5 · Precision: a monochrome architectural masterplan and sectioned machinery. */
+.precision .map-visual{background:#b0b5af}
+.precision .map-visual .drawing-ruler,.precision .map-visual .drawing-index{color:#5e6b62;border-color:#67756930}
+.precision .map-crosshair{color:#515e54;font-size:8px}
+.precision .plan-key{position:absolute;bottom:53px;left:38px;display:flex;gap:7px;align-items:center;font-size:8px;color:#4e5c51;pointer-events:none}
+.plan-key i,.plan-key span{display:inline-block;width:13px;height:6px;background:#d0d5cf}.plan-key span{margin-left:9px;background:#949e94}
+.precision .map-visual .scene-foot{color:#4c5c50}.precision .map-visual .scene-tools{background:#eff0e8d9;border-color:#8d9a8b;box-shadow:0 4px 14px #263d2420}
+.precision .precision-labels{position:absolute;inset:0;pointer-events:none;overflow:hidden}
+.plan-label{position:absolute;transform:translate(-50%,-100%);display:flex;align-items:center;gap:5px;padding:5px 7px;color:#344137;font-size:10px;white-space:nowrap;letter-spacing:1px;font-weight:600;pointer-events:auto;border:0;background:#e7e9dfad;text-shadow:0 1px 5px #ffffff66;border-radius:0;box-shadow:none;line-height:1.4}
+.plan-label.selected{color:#2b332b;background:#f7f6eddc}.plan-label i{width:4px;height:4px;background:#d86838;border-radius:50%;display:block}
+.precision .device-visual{background-color:#181c1e;background-image:radial-gradient(circle,#89958d24 .7px,transparent .9px);background-size:22px 22px;isolation:isolate}
+.precision .device-visual:after{display:none}
+.precision .device-visual .drawing-ruler,.precision .device-visual .drawing-index{color:#6c7976;border-color:#86948d28;background-image:none}
+.precision .device-visual .engineering-corner{top:88px;left:38px;font:8px/1.9 SFMono-Regular,Menlo,monospace;color:#6b7874;pointer-events:none}
+.precision .device-visual .engineering-corner b{color:#a2ada6;font-weight:400;letter-spacing:1px}
+.precision .device-visual .engineering-axis{color:#91a29a;opacity:.5;bottom:61px}
+.precision .device-visual .dimension-rule{color:#728278;font-size:8px;opacity:.6;right:22px;top:105px;bottom:90px}
+.precision .device-visual .dimension-rule i{border-color:#82938666}
+.precision .device-visual .scene-foot{color:#76857c;font-size:7px;letter-spacing:1.1px;bottom:13px}
+.anatomy-modes{position:absolute;left:38px;top:41px;display:flex;padding:2px;background:#22282a;border:1px solid #4e5c534d;z-index:4}
+.anatomy-modes button{padding:7px 12px;font-size:10px;color:#87968c;letter-spacing:1px;line-height:1.3}
+.anatomy-modes button.active{background:#ced6cb;color:#263028}.anatomy-modes button:focus-visible{outline:1px solid #f3a478;outline-offset:3px}
+.precision .device-tools{top:41px;right:21px;gap:6px}.precision .device-tools .outline{background:#202729c4;border:1px solid #66786c66;color:#b9c4bb;font-size:9px;min-height:31px;height:31px;padding:6px 9px;gap:8px}
+.precision .device-tools .icon{width:12px;height:12px}.precision .device-tools .anatomy-reset{color:#d6ded0;padding-left:12px;padding-right:12px}
+.precision .device-visual .part-switch{background:#22292bd9;border-color:#66786c66;bottom:31px;padding:3px}
+.precision .device-visual .part-switch button{color:#89998e;font-size:9px;padding:7px 12px}.precision .device-visual .part-switch button.active{color:#f5bd95;background:#4a362d}
+.anatomy-label{position:absolute;display:flex;align-items:center;gap:8px;transform:translate(16px,-50%);padding:5px 0 5px 12px;border:0;border-bottom:1px solid #a0b3a33d;background:transparent;color:#9baea0;white-space:nowrap;font-size:9px;pointer-events:auto;line-height:1.4}
+.anatomy-label:before{content:'';position:absolute;width:3px;height:3px;left:0;background:#a8b7a8;border-radius:50%}.anatomy-label small{font:7px SFMono-Regular,Menlo,monospace;color:#647f6c;letter-spacing:.3px}
+.anatomy-label.selected{color:#fca570;border-bottom-color:#f2985a55}.anatomy-label.selected:before{background:#ff9d6e}.anatomy-label.selected small{color:#d18a62}
+.issue-select{width:100%;display:block;text-align:left;padding:12px 13px;margin:13px 0 17px;background:#f3f4f1;border:1px solid #d7ddd4;transition:background .18s,border-color .18s}
+.issue-select:hover,.issue-select.is-focused{border-color:#cb8761;background:#fbf5ed}.issue-caption{display:flex;align-items:center;gap:9px;font-size:10px;color:#555e55}.issue-caption small{font:8px SFMono-Regular,Menlo,monospace;color:#959b91}.issue-caption em{font-size:9px;font-style:normal;margin-left:auto;color:#af7049}
+.precision .issue-select .large-reading{margin:10px 0 5px}.precision .issue-select .large-reading strong{color:#d86735;line-height:1.04}.precision .issue-select .threshold-reading{margin-bottom:0;font-size:9px}
+.precision .issue-loop{position:relative;display:flex;width:100%;text-align:left;border:0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:#edf0ec;cursor:pointer;padding:17px 25px 28px;gap:26px}
+.precision .issue-loop:hover,.precision .issue-loop.is-focused{background:#f6eee2}.loop-action{position:absolute;bottom:9px;right:25px;color:#9e7955;font-size:8px}
+.precision .engineering-evidence .evidence-main{padding-top:18px;padding-bottom:14px}.precision .evidence-main .step-heading{margin-bottom:8px}.precision .engineering-evidence h2{font-size:17px;margin-bottom:8px}.precision .engineering-evidence p{font-size:10px;line-height:1.8}
+@media(min-width:1000px){.precision .industrial-diagnosis{grid-template-columns:minmax(0,1.85fr) minmax(300px,.8fr)}.precision .industrial-diagnosis .large-reading strong{font-size:clamp(42px,6.5vh,64px)}}
+@media(min-width:1000px) and (max-height:700px){.precision .industrial-diagnosis{grid-template-rows:minmax(0,1fr) 145px}.precision .issue-select{margin:9px 0 12px;padding:10px 12px}.precision .engineering-evidence .evidence-main{padding:15px 21px}.precision .issue-select .large-reading strong{font-size:41px}.precision .engineering-evidence h2{font-size:16px}.precision .issue-loop{padding:14px 21px 25px}.precision .anatomy-label{font-size:8px}}
+@media(max-width:999px){.precision .device-visual{min-height:420px}.precision .map-visual{min-height:430px}}
+@media(max-width:600px){.precision .device-visual{min-height:420px}.precision .map-visual{min-height:430px}.precision .device-visual .engineering-corner{top:87px;left:34px}.anatomy-modes{left:34px;top:41px}.anatomy-modes button{padding:7px 10px}.precision .device-tools{right:12px}.precision .device-tools .outline{font-size:8px;padding:6px}.precision .device-tools .icon{display:none}.precision .device-visual .scene-foot{left:34px;font-size:6px}.plan-label{font-size:9px}.anatomy-label{font-size:8px;gap:5px}.anatomy-label small{font-size:6px}.precision .plan-key{left:34px}}
+/* The anatomical viewport gets the full working height; trend evidence stays
+   next to the fault, so the drawing is readable before zooming in. */
+@media(min-width:1000px){
+ .precision .industrial-diagnosis{grid-template-columns:minmax(0,1.65fr) minmax(350px,.85fr);grid-template-rows:minmax(0,1fr) clamp(170px,24vh,225px)}
+ .precision .industrial-diagnosis>.device-visual{grid-column:1;grid-row:1/3}
+ .precision .industrial-diagnosis>.engineering-evidence{grid-column:2;grid-row:1;min-height:0}
+ .precision .industrial-diagnosis>.industrial-chart{grid-column:2;grid-row:2;display:flex;flex-direction:column;padding:15px 21px 11px;border-left:1px solid var(--line);min-width:0;gap:0}
+ .precision .industrial-chart .chart-side-title{border:0;padding:0;display:flex;align-items:center;justify-content:space-between;gap:10px;flex-shrink:0}
+ .precision .industrial-chart .chart-side-title>span{display:none}
+ .precision .industrial-chart .chart-side-title .step-heading{margin:0;gap:9px}
+ .precision .industrial-chart .segmented{margin:0}.precision .industrial-chart .segmented button{padding:6px 9px;font-size:8px}
+ .precision .industrial-chart .chart{height:auto;min-height:85px;flex:1;margin:11px 0 0}
+ .precision .industrial-chart .chart-caption{margin-top:4px;font-size:7px}
+}
+.precision .plan-label{background:transparent;color:#f4f3e9;font-size:10px;font-weight:500;text-shadow:0 1px 5px #252f2899;letter-spacing:.7px}
+.precision .plan-label.selected{background:transparent;color:#fff8e9}

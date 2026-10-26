@@ -1,0 +1,962 @@
+{
+  "version": "V5",
+  "date": "2026-10-26",
+  "checks": [
+    {
+      "label": "initial-1280x800",
+      "charts": [
+        {
+          "box": "0 0 349 111",
+          "height": 111,
+          "width": 349.3671875
+        }
+      ],
+      "clippedText": [],
+      "overflow": false,
+      "page": "precision page-diagnosis",
+      "scene": {
+        "data": {
+          "camera": "5.15",
+          "engine": "anatomy-v5",
+          "focusPart": "whole",
+          "ghosted": "false",
+          "mode": "device",
+          "motion": "idle",
+          "projection": "orthographic",
+          "scan": "0.00",
+          "scanEnabled": "false",
+          "sceneId": "precision-1",
+          "sceneKind": "sectioned-generator",
+          "visualization": "cutaway"
+        },
+        "host": {
+          "bottom": 769,
+          "height": 560.7109375,
+          "left": 103,
+          "right": 864.6328125,
+          "top": 208.2890625,
+          "width": 761.6328125,
+          "x": 103,
+          "y": 208.2890625
+        },
+        "rect": {
+          "bottom": 769,
+          "height": 560.7109375,
+          "left": 103,
+          "right": 864.6328125,
+          "top": 208.2890625,
+          "width": 761.6328125,
+          "x": 103,
+          "y": 208.2890625
+        }
+      },
+      "viewport": [
+        1280,
+        800
+      ]
+    },
+    {
+      "label": "precision-diagnosis-1280x720",
+      "charts": [
+        {
+          "box": "0 0 349 92",
+          "height": 91.796875,
+          "width": 349.3671875
+        }
+      ],
+      "clippedText": [],
+      "overflow": false,
+      "page": "precision page-diagnosis",
+      "scene": {
+        "data": {
+          "camera": "5.15",
+          "engine": "anatomy-v5",
+          "focusPart": "whole",
+          "ghosted": "false",
+          "mode": "device",
+          "motion": "idle",
+          "projection": "orthographic",
+          "scan": "0.00",
+          "scanEnabled": "false",
+          "sceneId": "precision-1",
+          "sceneKind": "sectioned-generator",
+          "visualization": "cutaway"
+        },
+        "host": {
+          "bottom": 694,
+          "height": 503.703125,
+          "left": 103,
+          "right": 864.6328125,
+          "top": 190.296875,
+          "width": 761.6328125,
+          "x": 103,
+          "y": 190.296875
+        },
+        "rect": {
+          "bottom": 694,
+          "height": 503.703125,
+          "left": 103,
+          "right": 864.6328125,
+          "top": 190.296875,
+          "width": 761.6328125,
+          "x": 103,
+          "y": 190.296875
+        }
+      },
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "label": "bearing-focused",
+      "charts": [
+        {
+          "box": "0 0 349 92",
+          "height": 91.796875,
+          "width": 349.3671875
+        }
+      ],
+      "clippedText": [],
+      "overflow": false,
+      "page": "precision page-diagnosis",
+      "scene": {
+        "data": {
+          "camera": "1.73",
+          "engine": "anatomy-v5",
+          "focusPart": "bearing",
+          "ghosted": "true",
+          "mode": "device",
+          "motion": "idle",
+          "projection": "orthographic",
+          "scan": "0.00",
+          "scanEnabled": "false",
+          "sceneId": "precision-1",
+          "sceneKind": "sectioned-generator",
+          "visualization": "cutaway"
+        },
+        "host": {
+          "bottom": 694,
+          "height": 503.703125,
+          "left": 103,
+          "right": 864.6328125,
+          "top": 190.296875,
+          "width": 761.6328125,
+          "x": 103,
+          "y": 190.296875
+        },
+        "rect": {
+          "bottom": 694,
+          "height": 503.703125,
+          "left": 103,
+          "right": 864.6328125,
+          "top": 190.296875,
+          "width": 761.6328125,
+          "x": 103,
+          "y": 190.296875
+        }
+      },
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "label": "wireframe-exploded",
+      "charts": [
+        {
+          "box": "0 0 349 92",
+          "height": 91.796875,
+          "width": 349.3671875
+        }
+      ],
+      "clippedText": [],
+      "overflow": false,
+      "page": "precision page-diagnosis",
+      "scene": {
+        "data": {
+          "camera": "6.25",
+          "engine": "anatomy-v5",
+          "focusPart": "whole",
+          "ghosted": "false",
+          "mode": "device",
+          "motion": "idle",
+          "projection": "orthographic",
+          "scan": "0.00",
+          "scanEnabled": "false",
+          "sceneId": "precision-1",
+          "sceneKind": "sectioned-generator",
+          "visualization": "wireframe"
+        },
+        "host": {
+          "bottom": 694,
+          "height": 503.703125,
+          "left": 103,
+          "right": 864.6328125,
+          "top": 190.296875,
+          "width": 761.6328125,
+          "x": 103,
+          "y": 190.296875
+        },
+        "rect": {
+          "bottom": 694,
+          "height": 503.703125,
+          "left": 103,
+          "right": 864.6328125,
+          "top": 190.296875,
+          "width": 761.6328125,
+          "x": 103,
+          "y": 190.296875
+        }
+      },
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "label": "cooling-focused",
+      "charts": [
+        {
+          "box": "0 0 349 92",
+          "height": 91.796875,
+          "width": 349.3671875
+        }
+      ],
+      "clippedText": [],
+      "overflow": false,
+      "page": "precision page-diagnosis",
+      "scene": {
+        "data": {
+          "camera": "3.23",
+          "engine": "anatomy-v5",
+          "focusPart": "cooler",
+          "ghosted": "true",
+          "mode": "device",
+          "motion": "idle",
+          "projection": "orthographic",
+          "scan": "0.00",
+          "scanEnabled": "false",
+          "sceneId": "precision-1",
+          "sceneKind": "sectioned-generator",
+          "visualization": "cutaway"
+        },
+        "host": {
+          "bottom": 694,
+          "height": 503.703125,
+          "left": 103,
+          "right": 864.6328125,
+          "top": 190.296875,
+          "width": 761.6328125,
+          "x": 103,
+          "y": 190.296875
+        },
+        "rect": {
+          "bottom": 694,
+          "height": 503.703125,
+          "left": 103,
+          "right": 864.6328125,
+          "top": 190.296875,
+          "width": 761.6328125,
+          "x": 103,
+          "y": 190.296875
+        }
+      },
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "label": "precision-diagnosis-1024x600",
+      "charts": [
+        {
+          "box": "0 0 307 89",
+          "height": 89,
+          "width": 307
+        }
+      ],
+      "clippedText": [],
+      "overflow": false,
+      "page": "precision page-diagnosis",
+      "scene": {
+        "data": {
+          "camera": "5.15",
+          "engine": "anatomy-v5",
+          "focusPart": "whole",
+          "ghosted": "false",
+          "mode": "device",
+          "motion": "idle",
+          "projection": "orthographic",
+          "scan": "0.00",
+          "scanEnabled": "false",
+          "sceneId": "precision-1",
+          "sceneKind": "sectioned-generator",
+          "visualization": "cutaway"
+        },
+        "host": {
+          "bottom": 574,
+          "height": 387.25,
+          "left": 88,
+          "right": 651,
+          "top": 186.75,
+          "width": 563,
+          "x": 88,
+          "y": 186.75
+        },
+        "rect": {
+          "bottom": 574,
+          "height": 387.25,
+          "left": 88,
+          "right": 651,
+          "top": 186.75,
+          "width": 563,
+          "x": 88,
+          "y": 186.75
+        }
+      },
+      "viewport": [
+        1024,
+        600
+      ]
+    },
+    {
+      "label": "precision-diagnosis-535x760",
+      "charts": [
+        {
+          "box": "0 0 448 160",
+          "height": 160,
+          "width": 448
+        }
+      ],
+      "clippedText": [],
+      "overflow": false,
+      "page": "precision page-diagnosis",
+      "scene": {
+        "data": {
+          "camera": "5.15",
+          "engine": "anatomy-v5",
+          "focusPart": "whole",
+          "ghosted": "false",
+          "mode": "device",
+          "motion": "idle",
+          "projection": "orthographic",
+          "scan": "0.00",
+          "scanEnabled": "false",
+          "sceneId": "precision-1",
+          "sceneKind": "sectioned-generator",
+          "visualization": "cutaway"
+        },
+        "host": {
+          "bottom": 682.046875,
+          "height": 440.796875,
+          "left": 17,
+          "right": 507,
+          "top": 241.25,
+          "width": 490,
+          "x": 17,
+          "y": 241.25
+        },
+        "rect": {
+          "bottom": 682.046875,
+          "height": 440.796875,
+          "left": 17,
+          "right": 507,
+          "top": 241.25,
+          "width": 490,
+          "x": 17,
+          "y": 241.25
+        }
+      },
+      "viewport": [
+        524,
+        760
+      ]
+    },
+    {
+      "label": "precision-map-535x760",
+      "charts": [],
+      "clippedText": [],
+      "overflow": false,
+      "page": "precision page-map",
+      "scene": {
+        "data": {
+          "camera": "17.09",
+          "engine": "anatomy-v5",
+          "focusPart": "whole",
+          "ghosted": "false",
+          "mode": "map",
+          "motion": "idle",
+          "projection": "orthographic",
+          "scan": "0.00",
+          "scanEnabled": "false",
+          "sceneId": "precision-1",
+          "sceneKind": "planar-masterplan",
+          "visualization": "cutaway"
+        },
+        "host": {
+          "bottom": 773.1875,
+          "height": 440.796875,
+          "left": 17,
+          "right": 507,
+          "top": 332.390625,
+          "width": 490,
+          "x": 17,
+          "y": 332.390625
+        },
+        "rect": {
+          "bottom": 773.1875,
+          "height": 440.796875,
+          "left": 17,
+          "right": 507,
+          "top": 332.390625,
+          "width": 490,
+          "x": 17,
+          "y": 332.390625
+        }
+      },
+      "viewport": [
+        524,
+        760
+      ]
+    },
+    {
+      "label": "precision-review-535x760",
+      "charts": [
+        {
+          "box": "0 0 444 170",
+          "height": 170,
+          "width": 444
+        }
+      ],
+      "clippedText": [],
+      "overflow": false,
+      "page": "precision page-review",
+      "scene": null,
+      "viewport": [
+        524,
+        760
+      ]
+    },
+    {
+      "label": "precision-map-1024x600",
+      "charts": [],
+      "clippedText": [],
+      "overflow": false,
+      "page": "precision page-map",
+      "scene": {
+        "data": {
+          "camera": "15.40",
+          "engine": "anatomy-v5",
+          "focusPart": "whole",
+          "ghosted": "false",
+          "mode": "map",
+          "motion": "idle",
+          "projection": "orthographic",
+          "scan": "0.00",
+          "scanEnabled": "false",
+          "sceneId": "precision-1",
+          "sceneKind": "planar-masterplan",
+          "visualization": "cutaway"
+        },
+        "host": {
+          "bottom": 574,
+          "height": 372,
+          "left": 88,
+          "right": 759,
+          "top": 202,
+          "width": 671,
+          "x": 88,
+          "y": 202
+        },
+        "rect": {
+          "bottom": 574,
+          "height": 372,
+          "left": 88,
+          "right": 759,
+          "top": 202,
+          "width": 671,
+          "x": 88,
+          "y": 202
+        }
+      },
+      "viewport": [
+        1024,
+        600
+      ]
+    },
+    {
+      "label": "precision-review-1024x600",
+      "charts": [
+        {
+          "box": "0 0 504 150",
+          "height": 150,
+          "width": 504
+        }
+      ],
+      "clippedText": [],
+      "overflow": false,
+      "page": "precision page-review",
+      "scene": null,
+      "viewport": [
+        1024,
+        600
+      ]
+    },
+    {
+      "label": "closeout-regression",
+      "validation": "Three checks required; closed after three checks; map event restored"
+    },
+    {
+      "label": "precision-map-1280x720",
+      "charts": [],
+      "clippedText": [],
+      "overflow": false,
+      "page": "precision page-map",
+      "scene": {
+        "data": {
+          "camera": "15.40",
+          "engine": "anatomy-v5",
+          "focusPart": "whole",
+          "ghosted": "false",
+          "mode": "map",
+          "motion": "idle",
+          "projection": "orthographic",
+          "scan": "0.00",
+          "scanEnabled": "false",
+          "sceneId": "precision-1",
+          "sceneKind": "planar-masterplan",
+          "visualization": "cutaway"
+        },
+        "host": {
+          "bottom": 694,
+          "height": 489.6015625,
+          "left": 103,
+          "right": 1001,
+          "top": 204.3984375,
+          "width": 898,
+          "x": 103,
+          "y": 204.3984375
+        },
+        "rect": {
+          "bottom": 694,
+          "height": 489.6015625,
+          "left": 103,
+          "right": 1001,
+          "top": 204.3984375,
+          "width": 898,
+          "x": 103,
+          "y": 204.3984375
+        }
+      },
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "label": "precision-diagnosis-1280x720",
+      "charts": [
+        {
+          "box": "0 0 349 92",
+          "height": 91.796875,
+          "width": 349.3671875
+        }
+      ],
+      "clippedText": [],
+      "overflow": false,
+      "page": "precision page-diagnosis",
+      "scene": {
+        "data": {
+          "camera": "5.15",
+          "engine": "anatomy-v5",
+          "focusPart": "whole",
+          "ghosted": "false",
+          "mode": "device",
+          "motion": "idle",
+          "projection": "orthographic",
+          "scan": "0.00",
+          "scanEnabled": "false",
+          "sceneId": "precision-1",
+          "sceneKind": "sectioned-generator",
+          "visualization": "cutaway"
+        },
+        "host": {
+          "bottom": 694,
+          "height": 503.703125,
+          "left": 103,
+          "right": 864.6328125,
+          "top": 190.296875,
+          "width": 761.6328125,
+          "x": 103,
+          "y": 190.296875
+        },
+        "rect": {
+          "bottom": 694,
+          "height": 503.703125,
+          "left": 103,
+          "right": 864.6328125,
+          "top": 190.296875,
+          "width": 761.6328125,
+          "x": 103,
+          "y": 190.296875
+        }
+      },
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "label": "precision-review-1280x720",
+      "charts": [
+        {
+          "box": "0 0 647 150",
+          "height": 150.09375,
+          "width": 647.40625
+        }
+      ],
+      "clippedText": [],
+      "overflow": false,
+      "page": "precision page-review",
+      "scene": null,
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "label": "light-map-1280x720",
+      "charts": [],
+      "clippedText": [],
+      "overflow": false,
+      "page": "light page-map",
+      "scene": {
+        "data": {
+          "engine": "three.js r180",
+          "mode": "map",
+          "projection": "perspective",
+          "sceneId": "1"
+        },
+        "host": {
+          "bottom": 595.96875,
+          "height": 405.171875,
+          "left": 312,
+          "right": 1247,
+          "top": 190.796875,
+          "width": 935,
+          "x": 312,
+          "y": 190.796875
+        },
+        "rect": {
+          "bottom": 595.796875,
+          "height": 405,
+          "left": 312,
+          "right": 1247,
+          "top": 190.796875,
+          "width": 935,
+          "x": 312,
+          "y": 190.796875
+        }
+      },
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "label": "light-diagnosis-1280x720",
+      "charts": [
+        {
+          "box": "0 0 620 100",
+          "height": 100,
+          "width": 619.5078125
+        }
+      ],
+      "clippedText": [],
+      "overflow": false,
+      "page": "light page-diagnosis",
+      "scene": {
+        "data": {
+          "camera": "7.415,2.074,8.790",
+          "engine": "three.js r180",
+          "mode": "device",
+          "motion": "idle",
+          "projection": "perspective",
+          "scan": "0.00",
+          "sceneId": "1"
+        },
+        "host": {
+          "bottom": 570.5,
+          "height": 250.96875,
+          "left": 701.7421875,
+          "right": 1246,
+          "top": 319.53125,
+          "width": 544.2578125,
+          "x": 701.7421875,
+          "y": 319.53125
+        },
+        "rect": {
+          "bottom": 570.53125,
+          "height": 251,
+          "left": 701.7421875,
+          "right": 1245.7421875,
+          "top": 319.53125,
+          "width": 544,
+          "x": 701.7421875,
+          "y": 319.53125
+        }
+      },
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "label": "light-review-1280x720",
+      "charts": [
+        {
+          "box": "0 0 715 115",
+          "height": 115,
+          "width": 715
+        }
+      ],
+      "clippedText": [],
+      "overflow": false,
+      "page": "light page-review",
+      "scene": null,
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "label": "immersive-map-1280x720",
+      "charts": [],
+      "clippedText": [],
+      "overflow": false,
+      "page": "immersive page-map",
+      "scene": {
+        "data": {
+          "engine": "three.js r180",
+          "mode": "map",
+          "projection": "perspective",
+          "sceneId": "1"
+        },
+        "host": {
+          "bottom": 693,
+          "height": 606,
+          "left": 0,
+          "right": 1280,
+          "top": 87,
+          "width": 1280,
+          "x": 0,
+          "y": 87
+        },
+        "rect": {
+          "bottom": 693,
+          "height": 606,
+          "left": 0,
+          "right": 1280,
+          "top": 87,
+          "width": 1280,
+          "x": 0,
+          "y": 87
+        }
+      },
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "label": "immersive-diagnosis-1280x720",
+      "charts": [],
+      "clippedText": [],
+      "overflow": false,
+      "page": "immersive page-diagnosis",
+      "scene": {
+        "data": {
+          "camera": "7.487,2.122,8.790",
+          "engine": "three.js r180",
+          "mode": "device",
+          "motion": "idle",
+          "projection": "perspective",
+          "scan": "0.00",
+          "sceneId": "1"
+        },
+        "host": {
+          "bottom": 693,
+          "height": 606,
+          "left": 0,
+          "right": 1280,
+          "top": 87,
+          "width": 1280,
+          "x": 0,
+          "y": 87
+        },
+        "rect": {
+          "bottom": 693,
+          "height": 606,
+          "left": 0,
+          "right": 1280,
+          "top": 87,
+          "width": 1280,
+          "x": 0,
+          "y": 87
+        }
+      },
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "label": "immersive-review-1280x720",
+      "charts": [
+        {
+          "box": "0 0 789 203",
+          "height": 203.40625,
+          "width": 789.21875
+        }
+      ],
+      "clippedText": [],
+      "overflow": false,
+      "page": "immersive page-review",
+      "scene": null,
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "label": "precision-map-1920x1080",
+      "charts": [],
+      "clippedText": [],
+      "overflow": false,
+      "page": "precision page-map",
+      "scene": {
+        "data": {
+          "camera": "15.40",
+          "engine": "anatomy-v5",
+          "focusPart": "whole",
+          "ghosted": "false",
+          "mode": "map",
+          "motion": "idle",
+          "projection": "orthographic",
+          "scan": "0.00",
+          "scanEnabled": "false",
+          "sceneId": "precision-1",
+          "sceneKind": "planar-masterplan",
+          "visualization": "cutaway"
+        },
+        "host": {
+          "bottom": 1049,
+          "height": 776.40625,
+          "left": 103,
+          "right": 1587,
+          "top": 272.59375,
+          "width": 1484,
+          "x": 103,
+          "y": 272.59375
+        },
+        "rect": {
+          "bottom": 1049,
+          "height": 776.40625,
+          "left": 103,
+          "right": 1587,
+          "top": 272.59375,
+          "width": 1484,
+          "x": 103,
+          "y": 272.59375
+        }
+      },
+      "viewport": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "label": "direct-map-to-diagnosis",
+      "charts": [
+        {
+          "box": "0 0 567 144",
+          "height": 144,
+          "width": 566.953125
+        }
+      ],
+      "clippedText": [],
+      "overflow": false,
+      "page": "precision page-diagnosis",
+      "scene": {
+        "data": {
+          "camera": "5.15",
+          "engine": "anatomy-v5",
+          "focusPart": "whole",
+          "ghosted": "false",
+          "mode": "device",
+          "motion": "idle",
+          "projection": "orthographic",
+          "scan": "0.00",
+          "scanEnabled": "false",
+          "sceneId": "precision-1",
+          "sceneKind": "sectioned-generator",
+          "visualization": "cutaway"
+        },
+        "host": {
+          "bottom": 1049,
+          "height": 808.859375,
+          "left": 103,
+          "right": 1287.0390625,
+          "top": 240.140625,
+          "width": 1184.0390625,
+          "x": 103,
+          "y": 240.140625
+        },
+        "rect": {
+          "bottom": 1049,
+          "height": 808.859375,
+          "left": 103,
+          "right": 1287.0390625,
+          "top": 240.140625,
+          "width": 1184.0390625,
+          "x": 103,
+          "y": 240.140625
+        }
+      },
+      "viewport": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "label": "canvas-picking",
+      "clicked": "bearing mesh",
+      "result": "bearing focus and ghosting"
+    },
+    {
+      "label": "precision-review-1920x1080",
+      "charts": [
+        {
+          "box": "0 0 1027 166",
+          "height": 166.296875,
+          "width": 1027.203125
+        }
+      ],
+      "clippedText": [],
+      "overflow": false,
+      "page": "precision page-review",
+      "scene": null,
+      "viewport": [
+        1920,
+        1080
+      ]
+    }
+  ],
+  "consoleErrors": [],
+  "notes": [
+    "Precision scene has no pointer-hover shader or light.",
+    "All map/device switches are direct.",
+    "Early environment blur warning corrected from 0.05 to 0.025."
+  ]
+}
